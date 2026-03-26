@@ -50,14 +50,14 @@
  * Valid values are "yaml" for Hayagriva and "bib" for BibLaTeX.
 ***/
 
-#let bibFileSuffix = "yaml"
+#let bibFileSuffix = "bib"
 
 /**
  * Set this to false if you are an international student and do
  * not need a Finnish abstract.
 ***/
 
-#let includeFinnishAbstract = false
+#let includeFinnishAbstract = true
 
 /**
  * Set this to true before compiling your document, if you intend
@@ -172,13 +172,13 @@
 
 // Choose whether to include certain frontmatter sections.
 
-#let includeGlossary = true
+#let includeGlossary = false
 
-#let includeListOfFigures = true
+#let includeListOfFigures = false
 
-#let includeListOfTables = true
+#let includeListOfTables = false
 
-#let includeListOfListings = true
+#let includeListOfListings = false
 
 // Choose your fonts. Remember that they need to exist on
 // your system for Typst to find them.

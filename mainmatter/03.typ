@@ -13,8 +13,8 @@
 
 #import "../preamble.typ": *
 
-== Avoin laitteisto
-=== Avoimen laitteiston määritelmä
-=== Avoimen laitteiston periaatteet
-=== Esimerkkejä avoimesta laitteistosta
-=== Haasteet ja rajoitukset
+= Avoin laitteisto
+== Avoimen laitteiston määritelmä
+== Avoimen laitteiston periaatteet
+== Esimerkkejä avoimesta laitteistosta
+== Haasteet ja rajoitukset

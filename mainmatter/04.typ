@@ -13,8 +13,8 @@
 
 #import "../preamble.typ": *
 
-== RISC-V
-=== ISA ja suunnitteluperiaatteet
-=== Laajennukset
-=== Implementaatiot ja avoimet ytimet
-=== Käyttökohteet
+= RISC-V ?
+== ISA ja suunnitteluperiaatteet ?
+== Laajennukset ?
+== Implementaatiot ja avoimet ytimet ?
+== Käyttökohteet ?
