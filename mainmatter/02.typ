@@ -2,7 +2,7 @@
  *
  * This is an example chapter in a multi-file Typst project.
  *
-***/
+ ***/
 
 #pdf.attach(
   "02.typ",
@@ -22,13 +22,13 @@ Käytännössä avoimuus toteutuu julkaisemalla teoksen tekemiseen vaaditut mate
 == Avoimen lähdekoodin lisenssit
 Avoimen lähdekoodin lisenssit voidaan karkeasti jakaa kahteen pääryhmään, salliviin (_permissive_) ja velvoittaviin (_copyleft_) lisensseihin. Valittu lisenssi määrittää, miten teosta ja siihen perustuvia projekteja saa käyttää. Sallivat lisenssit mahdollistavat avoimen teoksen integroimsen osaksi suljettua ja  kaupallista tuotetta. Kun taas velvoittava lisenssi vaatii, että avointa teosta käyttävä tuotos on oltava myös avoimessa levityksessä. Tällä varmistetaan yhteisöllisellä panostuksella tehdyn teoksen jatkuvuus ja maksimoidaan kaikkien osapuolien tasapuolinen hyöty.
 
-=== Sallivat lisenssit
+=== Avoimen lähdekoodin sallivat lisenssit
 
 Sallivat lisenssit antavat käyttäjälle lähes rajattomat vapaudet hyödyntää, muokata ja jakaa koodia. Sallivat lisenssit mahdollistavat lähdekoodin käytön osana suljettua ja kaupallista tuotetta. Yleisenä vaatimuksina on alkuperäisen tekijän ja lisenssitekstin säilyttäminen osana teosta. Kuuluisempiin salliviin lisensseihin kuuluu Kalifornian yliopiston BSD-lisenssi, Massachusetts Institute of Technology eli MIT:n MIT-lisenssi ja Apache Software Foundationin Apache-lisenssi.
 
-BSD-lisenssi on yksi vanhimmista avoimista lisensseistä ja se vanhimpia avoimen lähdekoodin lisenssejä. Lisenssiä on päivitetty ajan kuluessa ja nykyisin siitä on käytössä useita versioita. Suosituimpia näistä ovat kolmen ja kahden ehdon lisenssit. 
+BSD-lisenssi on yksi vanhimmista avoimista lisensseistä ja se vanhimpia avoimen lähdekoodin lisenssejä. Lisenssiä on päivitetty ajan kuluessa ja nykyisin siitä on käytössä useita versioita. Suosituimpia näistä ovat kolmen ja kahden ehdon lisenssit.
 
-BSD:n kolmen ehdon lisenssin ehdot[lähe]: 
+BSD:n kolmen ehdon lisenssin ehdot[lähe]:
 + Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 + Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 + Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
@@ -40,7 +40,7 @@ Kaksiehtoinen BSD-lisenssi yksinkertaistaa ehtoja ja vaatii ainostaan alkuperäi
 MIT-lisenssi on yksinkertaisimmista ja käytetyimmistä sallivista lisensseistä. [lähe] Se sallii ohjelmiston vapaan käytön, kopioinnin, muokkaamisen, yhdistämisen, julkaisemisen ja jakelun sekä alilisensoinnin. Lisenssin ainoana merkittävänä vaatimuksena on alkuperäisen tekijänoikeusilmoituksen ja lisenssitekstin säilyttäminen. MIT-lisenssi sisältää myös vastuuvapauslausekkeen, jossa ohjelmisto toimitetaan ilman takuita.
 
 
-=== Velvoittavat lisenssit
+=== Avoimen lähdekoodin velvoittavat lisenssit
 
 Velvoittavat lisenssit asettavat ehtoja ohjelmiston käytölle, muokkaamiselle ja jakelulle. Sallivista lisensseistä poiketen, velvoittvat lisenssit vaativat että muokattu tai johdettu teos jaetaan samalla lisenssillä kuin alkuperäinen ohjelmisto. Johdeteun teoken lähdekoodin on pidettävä myös avoimena. Velvoittavat lisenssit eivät yleensä salli koodin liittämistä osaksi suljettua ohjelmistoa ilman, että koko lopputuote julkaistaan avoimena lähdekoodina. [lähe]
 
@@ -50,16 +50,16 @@ GPL-lisenssi edellyttää, että ohjelmiston muokatut versiot ja siitä johdetut
 
 LGPL-lisenssi on kevyempi versio GPL:stä. LGPL on suosittu ohjelmistokirjastojen kanssa. Se sallii kirjastojen käytön myös suljetuissa ohjelmistoissa ilman, että koko ohjelmaa tarvitsee julkaista avoimena lähdekoodina. Muutokset itse LGPL-lisensoituun kirjastoon on kuitenkin jaettava avoimesti.
 
-MPL-lisenssi asettuu sallivien ja vahvasti velvoittavien lisenssien väliin. MPL-lisenssi sallii lähdekoodin lisäämisen osaksi kaupallista ja suljettua projektia, mutta edellyttää alkuperäisen koodin ja siihen tehtyjen muokkausten avointa julkaisemista. Täten vain osa MPL-lisenssiä käyttävästä projektista on pidettävä avoimena. 
+MPL-lisenssi asettuu sallivien ja vahvasti velvoittavien lisenssien väliin. MPL-lisenssi sallii lähdekoodin lisäämisen osaksi kaupallista ja suljettua projektia, mutta edellyttää alkuperäisen koodin ja siihen tehtyjen muokkausten avointa julkaisemista. Täten vain osa MPL-lisenssiä käyttävästä projektista on pidettävä avoimena.
 
 MPL-lisenssi vaatii lisäksi, että muutokset dokumentoidaan ja alkuperäiset tekijänoikeusilmoitukset säilytetään. Lisenssi sisältää myös vastuuvapauslausekkeen sekä patentteihin liittyviä ehtoja, jotka suojaavat sekä kehittäjiä että käyttäjiä.
 
 Velvoittavien lisenssien keskeinen tavoite on varmistaa ohjelmistojen avoimuuden säilyminen ja estää koodin sulkeminen. Tämä tekee velvoittavista lisensseistä erityisen suosittuja avoimen lähdekoodin yhteisöissä, vaikka niiden tiukemmat ehdot rajoittavat kaupallista käyttöä.
 
-== Lisenssien merkitys 
-Lisenssien ensisijainen tehtävä on luoda selkeä säännöstely teoksen tekijän ja sen käyttäjän välille. Tekijänoikeuslainsäädäntöjen mukaan kaikki oikeudet kuuluvat teoksen tekijälle, ellei näin toisin mainittu. [tähän lähe] Ilman lisenssiä avoimesti saatavilla oleva teos on lainsäädännöllisesti suojattu, eikä muilla ole oikeutta kopioida tai muokata sitä. 
+== Lisenssien merkitys
+Lisenssien ensisijainen tehtävä on luoda selkeä säännöstely teoksen tekijän ja sen käyttäjän välille. Tekijänoikeuslainsäädäntöjen mukaan kaikki oikeudet kuuluvat teoksen tekijälle, ellei näin toisin mainittu. [tähän lähe] Ilman lisenssiä avoimesti saatavilla oleva teos on lainsäädännöllisesti suojattu, eikä muilla ole oikeutta kopioida tai muokata sitä.
 
-Lisenssit määrittävät tarkasti millä ehdoilla teosta saa käyttää, levittää tai muokata. Ilman selkeää määrittelyä, voi käyttäjä joutua epävarmaan tilanteesee, jossa teoksen hyödyntäminen johtaa tahattomaan tekijänoikeusrikkomukseen. Käyttäjän oikeusturvan lisäksi lisensseillä on rooli vastuukysymysten kattamisessa. Avoimet lisenssit siältävät usein tekijäkohtaisen vastuuvapauslausekkeen, jossa todetaan teos toimitettavaksi sellaisenaan ilman laatu- tai toimintavarmuuksia. Tämä vapauttaa alkuperäisen tekijän korvausvelvollisuudesta, jos teoksen käyttö johtaa vorheisiin tai vahinkoihin. 
+Lisenssit määrittävät tarkasti millä ehdoilla teosta saa käyttää, levittää tai muokata. Ilman selkeää määrittelyä, voi käyttäjä joutua epävarmaan tilanteesee, jossa teoksen hyödyntäminen johtaa tahattomaan tekijänoikeusrikkomukseen. Käyttäjän oikeusturvan lisäksi lisensseillä on rooli vastuukysymysten kattamisessa. Avoimet lisenssit siältävät usein tekijäkohtaisen vastuuvapauslausekkeen, jossa todetaan teos toimitettavaksi sellaisenaan ilman laatu- tai toimintavarmuuksia. Tämä vapauttaa alkuperäisen tekijän korvausvelvollisuudesta, jos teoksen käyttö johtaa vorheisiin tai vahinkoihin.
 
 Lisenssit ohjaavat myös niiden alasiten teoksien käyttämistä osana niitä sisältäviä projektia. Valittu lisenssi määrittää, miten teosta ja siihen perustuvia projekteja saa käyttää. Lisenssit voivat olla sallivia (_permissive licence_), jotka mahdollistavat avoimen teoksen integroimsen osaksi suljettua ja  kaupallista tuotetta. Lisenssi voi olla myös velvoittava (_copyleft_). Velvoittava lisenssi vaatii, että avointa teosta käyttävä tuotos on oltava myös avoimessa levityksessä. Tällä varmistetaan yhteisöllisellä panostuksella tehdyn teoksen jatkuvuus ja maksimoidaan kaikkien osapuolien tasapuolinen hyöty.
 
@@ -73,7 +73,7 @@ Lisenssit ohjaavat myös niiden alasiten teoksien käyttämistä osana niitä si
       columns: 3,
       stroke: none,
       align: (center, center, left),
-      
+
       table.hline(),
 
       table.header(
@@ -83,7 +83,7 @@ Lisenssit ohjaavat myös niiden alasiten teoksien käyttämistä osana niitä si
         [Tyyppi],
         table.vline(),
         [Keskeiset ehdot],
-         table.vline(),       
+        table.vline(),
       ),
 
       table.hline(),
@@ -138,13 +138,113 @@ Lisenssit ohjaavat myös niiden alasiten teoksien käyttämistä osana niitä si
         Voi käyttää osana suljettua ohjelmaa \
         Muutokset alkuperäiseen tiedostoon on jaettava
       ],
-          table.hline(),
-
+      table.hline(),
     ),
-    
-    caption: [Yleisimpien avoimen lähdekoodin lisenssien vertailu],
+
+    caption: [Avoimen lähdekoodin lisenssien vertailu],
   )
 ]
 
-Kun projektit käyttävät yleisesti tunnettuja ja vakiintuneita lisenssejä, organisaatioiden on helpompi arvioida lainsäädännöllisiä riskejä ilman sopimusneuvotteluja. Tämä mahdollistaa teknologioiden yhdistelyn ja suurten, monimutkaisten järjestelmien rakentamisen valmiiden ja avointen komponenttien päälle, mikä on nykyaikaisen ohjelmisto- ja laitteistokehityksen perusedellytys. Laitteiston ja lähdekoodin lisenssit eroavat toisistaan, sillä ohjelmiston kopioiminen on maksutonta, kun taas laitteen tuottamiseen sisältyy aina kustannuksia. 
+Kun projektit käyttävät yleisesti tunnettuja ja vakiintuneita lisenssejä, organisaatioiden on helpompi arvioida lainsäädännöllisiä riskejä ilman sopimusneuvotteluja. Tämä mahdollistaa teknologioiden yhdistelyn ja suurten, monimutkaisten järjestelmien rakentamisen valmiiden ja avointen komponenttien päälle, mikä on nykyaikaisen ohjelmisto- ja laitteistokehityksen perusedellytys. Laitteiston ja lähdekoodin lisenssit eroavat toisistaan, sillä ohjelmiston kopioiminen on maksutonta, kun taas laitteen tuottamiseen sisältyy aina kustannuksia.
+
 == Avoimen laitteiston lisenssit
+
+Avoin laitteisto on on avoimen lähdekoodin tapaan avoimuutta toeuttava tapa jakaa laitteisoja, jossa fyysisten laitteiden suunnittelu, toteutus ja dokumentaatio jaetaan avoimesti kaikkien saataville. Avoimuus laitteistossa tarkoittaa, että laitteen suunnitteluun liittyvät materiaalit, kuten piirikaaviot, piirilevysuunnitelmat, komponenttilistat ja valmistusohjeet, julkaistaan tavalla, joka sallii niiden tarkastelun, muokkaamisen ja uudelleenkäytön.
+
+Avoin laitteisto toteutuu julkaisemalla kaikki laitteen valmistamiseen ja ymmärtämiseen tarvittava dokumentaatio avoimilla lisensseillä. Näihin kuuluvat esimerkiksi CAD-tiedostot, piirikaaviot, laitekoodi sekä käyttö- ja kokoonpano-ohjeet. Dokumentaation julaisemisen lisäksi, on materiaalien oltava helppolukuisessa ja helposti luettavissa muodossa.
+
+Avoimen laitteiston lisenssit muistuttavat avoimen lähdekoodin lisenssejä, mutta ne on sovitettu fyysisten tuotteiden erityispiirteisiin. Tunnettuja avoimen laitteiston lisenssejä ovat esimerkiksi CERN Open Hardware License (CERN OHL) ja TAPR Open Hardware License. Lisenssit määrittävät, millä ehdoilla suunnitelmia saa käyttää, muokata ja jakaa eteenpäin, sekä velvoittavat usein muutosten dokumentointiin ja alkuperäisten tekijöiden mainitsemiseen.
+
+Avoimen laitteiston lisenssit muistuttavat hyvin paljon avoimen lähdekoodin lisenssejä. Sallivat lisenssit mahdollistavat suunnitelmien käytön myös suljetuissa tuotteissa ilman velvoitetta julkaista muutoksia. Velvoittavat lisenssit puolestaan edellyttävät, että muokatut versiot ja niihin perustuvat tuotteet jaetaan avoimesti samalla lisenssillä. Tämä varmistaa, että yhteisön kehittämä tieto ja parannukset säilyvät kaikkien saatavilla.
+
+Avoimen laitteiston keskeisiä haasteita ovat fyysiseen tuotantoon liittyvät kustannukset, komponenttien saatavuus sekä patenttien ja standardien vaikutus. Laitteen tuottaminen vaatii aina fyysistä valmistusta, mikä rajoittaa avoimuuden määritelmällistä toteutumista. Tästä huolimatta avoin laitteisto on kasvattanut suosiotaan erityisesti koulutuksessa, tutkimuksessa ja prototyyppikehityksessä. [lähe]
+
+Avoin laitteisto tukee kestävää kehitystä mahdollistamalla laitteiden korjaamisen, muokkaamisen ja elinkaaren pidentämisen. Kun dokumentaatio ovat avoimesti saatavilla, käyttäjät eivät ole sidottuja tiettyjen valmistajien varaosiin tai huoltoon. Tämä vähentää elektroniikkajätettä ja edistää luonnonvarojen tehokkaampaa käyttöä.
+
+Avoimen laitteiston tavoitteena on avoimen lähdekoodin tapaan lisätä teknologian läpinäkyvyyttä, saavutettavuutta ja yhteisöllistä kehitystä. [lähe] Se laajentaa avoimuuden periaatteet ohjelmistojen ulkopuolelle fyysiseen maailmaan ja mahdollistaa entistä laajemman osallistumisen teknologian kehittämiseen.
+
+#import table: cell, header, hline, vline
+
+#[
+  #show table.cell.where(y: 0): strong
+
+  #figure(
+    table(
+      columns: 3,
+      stroke: none,
+      align: (center, center, left),
+
+      table.hline(),
+
+      table.header(
+        table.vline(),
+        [Lisenssi],
+        table.vline(),
+        [Tyyppi],
+        table.vline(),
+        [Keskeiset ehdot],
+        table.vline(),
+      ),
+
+      table.hline(),
+
+      [CERN-OHL-P],
+      [Salliva],
+      [
+        Alkuperäisen tekijän maininta \
+        Vapaa käyttö ja muokkaus ilman jakovelvoitetta \
+        Vastuuvapauslauseke
+      ],
+
+      table.hline(),
+
+      [Solderpad],
+      [Salliva],
+      [
+        Pohjautuu Apache 2.0 -lisenssiin \
+        Selkeä patenttilisenssi \
+        Helppo yhdistää kaupallisiin tuotteisiin
+      ],
+      table.hline(),
+
+      
+
+      [TAPR OHL],
+      [Velvoittava],
+      [
+        Johdettujen teosten dokumentaatio julkaistava \
+        Varmistaa parannusten pysymisen yhteisöllisinä \
+        Kirjoitettu nimenomaan fyysiselle laitteistolle
+      ],
+
+            table.hline(),
+
+      [CERN-OHL-S],
+      [Velvoittava],
+      [
+        Kaikki johdetut teokset julkaistava samalla lisenssillä \
+        Suunnittelumateriaalit oltava saatavilla \
+        Patenttiehdot
+      ],
+
+      table.hline(),
+
+      [CERN-OHL-W],
+      [Velvoittava],
+      [
+        Muokatut osat julkaistava avoimena \
+        Voidaan sisällyttää osaksi laajempaa suljettua kokonaisuutta
+      ],
+      table.hline(),
+    ),
+
+
+    caption: [Avoimen laitteiston lisenssien vertailu],
+  )
+  ]
+  
+Valittu lisenssi vaikuttaa suoraan siihen, miten laitteiston suunnitelmia voidaan hyödyntää osana kaupallisia tuotteita tai jatkokehitystä.
+
+Vakiintuneiden lisenssien käyttö helpottaa organisaatioiden päätöksentekoa, sillä niiden ehdot ovat laajasti tunnettuja ja yksiselitteisesti tulkittavia. Tämä vähentää epävarmuutta ja mahdollistaa eri lähteistä peräisin olevien laitteistoratkaisujen yhdistämisen ilman sopimusneuvotteluja. Näin voidaan rakentaa monimutkaisia järjestelmiä avoimien komponenttien varaan, mikä on keskeistä erityisesti tutkimus- ja tuotekehitysympäristöissä.
+
+Huomattavaa on laitteiston lisensointiin liittyvä erityispiirre verrattuna ohjelmistoihin. Vaikka suunnittelutiedostojen jakaminen on käytännössä kustannuksetonta, fyysisten laitteiden valmistaminen edellyttää aina materiaaleja, tuotantoresursseja ja logistiikkaa. Avoin laitteisto koskee tällöin ennen kaikkea tietoa ja suunnitelmia.
