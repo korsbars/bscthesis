@@ -149,10 +149,6 @@ Kun projektit käyttävät yleisesti tunnettuja ja vakiintuneita lisenssejä, or
 
 == Avoimen laitteiston lisenssit
 
-Avoin laitteisto on on avoimen lähdekoodin tapaan avoimuutta toeuttava tapa jakaa laitteisoja, jossa fyysisten laitteiden suunnittelu, toteutus ja dokumentaatio jaetaan avoimesti kaikkien saataville. Avoimuus laitteistossa tarkoittaa, että laitteen suunnitteluun liittyvät materiaalit, kuten piirikaaviot, piirilevysuunnitelmat, komponenttilistat ja valmistusohjeet, julkaistaan tavalla, joka sallii niiden tarkastelun, muokkaamisen ja uudelleenkäytön.
-
-Avoin laitteisto toteutuu julkaisemalla kaikki laitteen valmistamiseen ja ymmärtämiseen tarvittava dokumentaatio avoimilla lisensseillä. Näihin kuuluvat esimerkiksi CAD-tiedostot, piirikaaviot, laitekoodi sekä käyttö- ja kokoonpano-ohjeet. Dokumentaation julaisemisen lisäksi, on materiaalien oltava helppolukuisessa ja helposti luettavissa muodossa.
-
 Avoimen laitteiston lisenssit muistuttavat avoimen lähdekoodin lisenssejä, mutta ne on sovitettu fyysisten tuotteiden erityispiirteisiin. Tunnettuja avoimen laitteiston lisenssejä ovat esimerkiksi CERN Open Hardware License (CERN OHL) ja TAPR Open Hardware License. Lisenssit määrittävät, millä ehdoilla suunnitelmia saa käyttää, muokata ja jakaa eteenpäin, sekä velvoittavat usein muutosten dokumentointiin ja alkuperäisten tekijöiden mainitsemiseen.
 
 Avoimen laitteiston lisenssit muistuttavat hyvin paljon avoimen lähdekoodin lisenssejä. Sallivat lisenssit mahdollistavat suunnitelmien käytön myös suljetuissa tuotteissa ilman velvoitetta julkaista muutoksia. Velvoittavat lisenssit puolestaan edellyttävät, että muokatut versiot ja niihin perustuvat tuotteet jaetaan avoimesti samalla lisenssillä. Tämä varmistaa, että yhteisön kehittämä tieto ja parannukset säilyvät kaikkien saatavilla.
