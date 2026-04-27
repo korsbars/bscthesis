@@ -21,10 +21,17 @@ Avoin laitteisto on on avoimen lähdekoodin tapaan avoimuutta toeuttava tapa jak
 Avoin laitteisto toteutuu julkaisemalla kaikki laitteen valmistamiseen ja ymmärtämiseen tarvittava dokumentaatio avoimilla lisensseillä. Näihin kuuluvat esimerkiksi CAD-tiedostot, piirikaaviot, laitekoodi sekä käyttö- ja kokoonpano-ohjeet. Dokumentaation julaisemisen lisäksi, on materiaalien oltava helppolukuisessa ja helposti luettavissa muodossa.
 
 //AI SLOPPIA
-Jotta laitteisto voidaan todella luokitella avoimeksi, sen on täytettävä tietyt vakiintuneet kriteerit, jotka on usein johdettu Open Source Hardware Associationin (OSHWA) määritelmistä. Keskeinen periaate on, että lisenssi ei saa rajoittaa kenenkään oikeutta myydä tai jakaa suunnitteludokumentaatiota tai siitä valmistettuja fyysisiä tuotteita. Tämä mahdollistaa terveiden liiketoimintaekosysteemien syntymisen, joissa yritykset voivat kilpailla valmistuslaadulla, tuella ja brändillä pelkän suljetun immateriaalioikeuden sijaan. Avoimuus edellyttää myös, että johdetut teokset on voitava julkaista samoilla ehdoilla, mikä varmistaa, että yhteisön tekemät parannukset ja innovaatiot pysyvät yhteisenä hyötynä eivätkä katoa suljettujen valmistusprosessien taakse.
+Keskeinen periaate on, että lisenssi ei saa rajoittaa kenenkään oikeutta myydä tai jakaa suunnitteludokumentaatiota tai siitä valmistettuja fyysisiä tuotteita. @OSHW Tämä mahdollistaa tasapainoisen liikennetoimintaympäristön syntymisen, joissa yritykset voivat kilpailla valmistuslaadulla, tuella ja brändillä pelkän suljetun immateriaalioikeuden sijaan. Avoimuus edellyttää myös, että johdetut teokset on julkaistava samoilla ehdoilla. Tällöin yhteisöllisesti tehdyt parannukset ja innovaatiot pysyvät yhteisenä hyötynä eivätkä verhoudu suljettujen valmistusprosessien taakse.
 
-Avoimen laitteiston periaatteisiin kuuluu olennaisesti myös tekninen saavutettavuus ja syrjimättömyys. Suunnittelutiedostojen tulisi olla avoimissa ja standardoiduissa tiedostomuodoissa, jotta niiden tarkastelu ja muokkaaminen ei vaadi kalliita tai vaikeasti saatavilla olevia kaupallisia ohjelmistoja. Tämä purkaa perinteiset teknologiset "mustat laatikot" ja antaa käyttäjälle täyden autonomian laitteen koko elinkaaren hallintaan. Periaatteet eivät ainoastaan edistä teknistä läpinäkyvyyttä, vaan ne ovat keskeisessä roolissa myös kestävän kehityksen kannalta; kun laitteen piirikaaviot ja huolto-ohjeet ovat julkisia, laitteiden korjaaminen ja päivittäminen helpottuu, mikä pidentää tuotteiden käyttöikää ja vähentää elektroniikkajätteen syntymistä. Lopulta avoimen laitteiston periaatteet pyrkivät poistamaan kuilun suunnittelijan ja käyttäjän väliltä, tehden teknologiasta demokraattista ja kaikkien muokattavissa olevaa yhteistä pääomaa.
-//AI SLOP PÄÄTTYY
+Avoimen laitteiston periaatteisiin kuuluu olennaisesti myös tekninen saavutettavuus ja syrjimättömyys. @OSHW Suunnittelutiedostojen tulisi olla avoimissa ja standardoiduissa tiedostomuodoissa, jolloin niiden tarkasteluun ja muokkaamiseen ei vaadita kalliita tai vaikeasti saatavilla olevia kaupallisia ohjelmistoja. Avoimen laitteiston periaatteet tukevat myös kestävää kehitystä. Tuotteen elinkaari pitenee kun laitteen valmistus- ja huolto-ohjeet ovat helposti saatavilla. [Lähde] //Joku lopetusvirke kappaleelle
 
 == Esimerkkejä avoimesta laitteistosta
+//ARDUINO
+//VORON ja REPRAP
+//APERTUS
+//RISCV duh
+// 
 == Haasteet ja rajoitukset
+// Vastuu 
+// Merkinnät
+//Lisenssikiistat
