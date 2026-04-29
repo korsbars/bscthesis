@@ -20,15 +20,15 @@ Avoin laitteisto on on avoimen lähdekoodin tapaan avoimuutta toeuttava tapa jak
 
 Avoin laitteisto toteutuu julkaisemalla kaikki laitteen valmistamiseen ja ymmärtämiseen tarvittava dokumentaatio avoimilla lisensseillä. Näihin kuuluvat esimerkiksi CAD-tiedostot, piirikaaviot, laitekoodi sekä käyttö- ja kokoonpano-ohjeet. Dokumentaation julaisemisen lisäksi, on materiaalien oltava helppolukuisessa ja helposti luettavissa muodossa.
 
-//AI SLOPPIA
+
 Keskeinen periaate on, että lisenssi ei saa rajoittaa kenenkään oikeutta myydä tai jakaa suunnitteludokumentaatiota tai siitä valmistettuja fyysisiä tuotteita. @OSHW Tämä mahdollistaa tasapainoisen liikennetoimintaympäristön syntymisen, joissa yritykset voivat kilpailla valmistuslaadulla, tuella ja brändillä pelkän suljetun immateriaalioikeuden sijaan. Avoimuus edellyttää myös, että johdetut teokset on julkaistava samoilla ehdoilla. Tällöin yhteisöllisesti tehdyt parannukset ja innovaatiot pysyvät yhteisenä hyötynä eivätkä verhoudu suljettujen valmistusprosessien taakse.
 
-Avoimen laitteiston periaatteisiin kuuluu olennaisesti myös tekninen saavutettavuus ja syrjimättömyys. @OSHW Suunnittelutiedostojen tulisi olla avoimissa ja standardoiduissa tiedostomuodoissa, jolloin niiden tarkasteluun ja muokkaamiseen ei vaadita kalliita tai vaikeasti saatavilla olevia kaupallisia ohjelmistoja. Avoimen laitteiston periaatteet tukevat myös kestävää kehitystä. Tuotteen elinkaari pitenee kun laitteen valmistus- ja huolto-ohjeet ovat helposti saatavilla. [Lähde] //Joku lopetusvirke kappaleelle
+Avoimen laitteiston periaatteisiin kuuluu olennaisesti myös tekninen saa  tettavuus ja syrjimättömyys. @OSHW Suunnittelutiedostojen tulisi olla avoimissa ja standardoiduissa tiedostomuodoissa, jolloin niiden tarkasteluun ja muokkaamiseen ei vaadita kalliita tai vaikeasti saatavilla olevia kaupallisia ohjelmistoja. Avoimen laitteiston periaatteet tukevat myös kestävää kehitystä. Tuotteen elinkaari pitenee kun laitteen valmistus- ja huolto-ohjeet ovat helposti saatavilla. [Lähde] //Joku lopetusvirke kappaleelle
 
 == Esimerkkejä avoimesta laitteistosta
-//ARDUINO
+Sanasta laite tai laittoisto tulee helposti mieleen fyysinen ja käsinkosketeltava esine. Avoimen laitteiston määritelmä kattaa laajasti kaiken näkymättömästä prosessoriarkkitehtuuritsa [Lähe tähä] massiivisiin tuotantokoneisiin. [lähde tähän]
+=== Arduino
 //VORON ja REPRAP
-//APERTUS
 //RISCV duh
 // 
 == Haasteet ja rajoitukset

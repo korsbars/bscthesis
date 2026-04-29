@@ -12,7 +12,7 @@
 
 //// Import the tauthesis module and document metadata.
 
-#import "@preview/scholarly-tauthesis:0.19.1" as tauthesis
+#import "@preview/scholarly-tauthesis:0.21.0" as tauthesis
 
 #import "metadata.typ"
 

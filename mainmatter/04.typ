@@ -14,7 +14,6 @@
 #import "../preamble.typ": *
 
 = Esimerkkitapaus avoimen laitteston eduista
-Kysy vaicks jukalta tähä jotai
 == ???
 == ???
 == ???
