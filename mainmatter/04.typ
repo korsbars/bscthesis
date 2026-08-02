@@ -37,6 +37,8 @@ HDMI 2.1 -standardin käyttöönotto havainnollistaa suljetun standardin konkree
 
 HDMI Forum ei sallinut FRL-teknologian toteuttamista avoimessa ajurikoodissa, koska ajurin lähdekoodin julkaiseminen olisi paljastanut salassapitosopimuksen alaisia teknisiä määritelmiä. Tämän seurauksena esimerkiksi AMD:n avoimet GNU/Linux-ajurit eivät voineet tarjota suoraa HDMI 2.1 -tukea. Tapaus johti tilanteeseen, jossa kuluttajat eivät voineet hyödyntää näytönohjaimensa ja näyttönsä kaikkia ominaisuuksia ilman suljettuja laiteohjelmistoja tai siirtymistä vaihtoehtoisiin liitäntöihin.
 
+HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarkastelemalla avoimien käyttöjärjestelmien käyttäjäkuntaa ja niiden laitteistojakaumaa. Steam Hardware Survey on yksi laajimmin käytetyistä julkisista aineistoista, joka kuvaa pelaajien käyttöjärjestelmiä ja laitteistoja. Vaikka aineisto ei kata koko tietokonemarkkinaa, se tarjoaa hyvän yleiskuvan erityisesti nykyaikaisia grafiikkaominaisuuksia hyödyntävien käyttäjien laitekokoonpanoista. Tämän vuoksi sitä voidaan käyttää havainnollistamaan, kuinka laajasti HDMI 2.1:n kaltaisten suljettujen standardien rajoitukset voivat vaikuttaa avoimen lähdekoodin ohjelmistoihin.
+
 #figure(
   grid(
     columns: 1,
@@ -104,7 +106,7 @@ HDMI Forum ei sallinut FRL-teknologian toteuttamista avoimessa ajurikoodissa, ko
           [#box(square(size: 8pt, fill: rgb("#888888"), radius: 1pt)) *Muut* 6,7%],
         )
       ],
-      alt: "Näytönohjainten jakauma Linux-käyttäjien keskuudessa Steamin tilastoissa",
+      alt: "Näytönohjainten jakauma GNU/Linux-käyttäjien keskuudessa Steamin tilastoissa",
     )
     <fig-gpu-linux-share>
   ],
@@ -114,10 +116,15 @@ HDMI Forum ei sallinut FRL-teknologian toteuttamista avoimessa ajurikoodissa, ko
       Steam Hardware Survey: Käyttöjärjestelmä- ja näytönohjainjakaumat.
     ],
     long: [
-      Steam Hardware Survey -tilastot.  Kuvassa @fig-os-share esitetään käyttöjärjestelmien osuudet kaikista Steamin käyttäjistä. @fig-gpu-linux-share näytönohjainvalmistajien jakauma Linux-käyttäjien keskuudessa. @SteamHardwareSoftware
+      Steam Hardware Survey -tilastot.  Kuvassa @fig-os-share esitetään käyttöjärjestelmien osuudet kaikista Steamin käyttäjistä. @fig-gpu-linux-share näytönohjainvalmistajien jakauma GNU/Linux-käyttäjien keskuudessa. @SteamHardwareSoftware
     ],
   ),
 ) <fig-steam-gpu-survey>
+
+Steam Hardware Survey -tilastojen perusteella Windows hallitsee 93,7% prosentin osuudella ja GNU/Linux muodostaa  neljän prosentin osuuden käyttäjäkunnasta. Vaikka osuus on suhteellisen pieni, se vastaa maailmanlaajuisesti miljoonia käyttäjiä. GNU/Linux-käyttäjien näytönohjainjakauma painottuu AMD:n laitteisiin, joiden osuus on noin 51 prosenttia, kun taas NVIDIAn osuus on 26,4 prosenttia ja Intelin noin 16,2 prosenttia. Koska AMD:n GNU/Linux-ajurit ovat pääosin avoimen lähdekoodin toteutuksia, HDMI Forumin asettamat rajoitukset kohdistuvat erityisesti merkittävään osaan GNU/Linux-käyttäjistä.
+
+Tilastot osoittavat, ettei kyse ole pelkästään yksittäisten kehittäjien kohtaamasta teknisestä ongelmasta, vaan suljetun standardin vaikutukset ulottuvat laajaan käyttäjäjoukkoon. Kun HDMI 2.1:n ominaisuuksia ei voida toteuttaa avoimissa ajureissa, käyttäjät eivät voi hyödyntää laitteistonsa kaikkia ominaisuuksia ilman suljettuja ohjelmistokomponentteja tai vaihtoehtoisten liitäntästandardien käyttöä. Suljettu liitäntästandardi muodostuu siten käytännön esteeksi avoimelle ohjelmisto- ja laitteistokehitykselle.
+
 
 #import table: cell, header, hline, vline
 
@@ -163,18 +170,16 @@ HDMI Forum ei sallinut FRL-teknologian toteuttamista avoimessa ajurikoodissa, ko
 ]
 Tapaus osoittaa selkeästi, kuinka suljettu standardi voi muodostua suoraksi esteeksi avoimelle ohjelmisto- ja laitteistokehitykselle. Kun tekniset tiedot salataan, avoimet järjestelmät pakotetaan joko tukeutumaan suljettuihin binäärimoduuleihin tai tyytymään vanhempien standardiversioiden tarjoamaan rajoitettuun suorituskykyyn.
 
-== DisplayPort avoimena teollisuusstandardina
+== DisplayPort avoimena standardina
 
-DisplayPort on VESA-järjestön kehittämä digitaalinen näyttöliitäntästandardi, jonka tavoitteena on tarjota laitevalmistajille suorituskykyinen, avoin ja yhteentoimiva vaihtoehto kuvansiirtoon. Toisin kuin HDMI, DisplayPort on suunniteltu teollisuusstandardiksi, jonka käyttöönotto ei edellytä laitekohtaisia rojaltimaksuja. Tämä alentaa merkittävästi uuden laitteiston kehityskustannuksia ja mahdollistaa liitännän joustavan käytön myös pienille valmistajille ja harrastajaprojekteille.
+DisplayPort on VESA-järjestön kehittämä digitaalinen näyttöliitäntästandardi, jonka tavoitteena on tarjota laitevalmistajille suorituskykyinen, avoin ja yhteentoimiva vaihtoehto kuvansiirtoon. Toisin kuin HDMI, DisplayPort on ei edellytä laitekohtaisia rojaltimaksuja. Tämä alentaa merkittävästi uuden laitteiston kehityskustannuksia ja mahdollistaa liitännän joustavan käytön myös pienille valmistajille, tutkimusprojekteille ja harrastajaprojekteille.
 
-=== Standardin joustavuus ja laitteistointegrointi
+=== DisplayPortin soveliaammat ominaisuudet
 
-DisplayPort on suunniteltu arkkitehtuuriltaan moduulimaisesti, mikä tekee siitä helposti integroitavan erilaisiin laitteisto- ja tiedonsiirtoratkaisuihin. Standardi sisältää erillisen AUX-apukanavan laitteiden väliseen ohjaustiedonsiirtoon sekä tuen useiden näyttöjen ketjutukselle Multi-Stream Transport -teknologian avulla. Merkittävä esimerkki joustavuudesta on DisplayPort Alt Mode, joka mahdollistaa natiivin DisplayPort-signaalin siirtämisen USB-C-liitännän kautta ilman erillistä fyysistä näyttöliitintä.
+Toisin kuin HDMI 2.1:n tapauksessa, DisplayPortin ominaisuuksien toteuttaminen avoimen lähdekoodin ohjelmistoissa ei ole ollut riippuvainen suljetuista salassapitosopimuksista. Tämän seurauksena GNU/Linuxin avoimet grafiikka-ajurit ovat voineet tukea DisplayPortin uusia ominaisuuksiailman oikeudellisia rajoitteita. Tämä on mahdollistanut uusien näyttötekniikoiden nopeamman käyttöönoton avoimissa käyttöjärjestelmissä ja vähentänyt riippuvuutta valmistajakohtaisista suljetuista ohjelmistoista.
 
-Avoimen lisensointimallinsa ja esteettömän dokumentaationsa ansiosta DisplayPort soveltuu erinomaisesti avoimen laitteiston projekteihin. Standardia voidaan hyödyntää esimerkiksi avoimissa RISC-V-pohjaisissa järjestelmäpiireissä, FPGA-toteutuksissa sekä tutkimusprojekteissa ilman pelkoa lisenssiloukkauksista tai odottamattomista maksuvelvoitteista. Tämä vapaus edistää teknistä innovointia ja madaltaa kynnystä uudenlaisten näyttöjärjestelmien kehittämiselle.
+== Standardien vaikutukset laitteistolle
 
-== Standardivalinnan vaikutukset avoimelle laitteistolle
+Liitäntästandardin valinta on perusteellinen päätös, joka vaikuttaa tuotteen koko elinkaareen, ylläpidettävyyteen ja riippumattomuuteen. Avoimet standardit varmistavat, että laitteen toimintaa ohjaavat ohjelmistot ja ajurit voidaan pitää avoimina ja ylläpidettyinä vuosikymmeniä laitteen valmistuksen päättymisen jälkeen. Tämä pidentää laitteiston käyttöikää, edistää kiertotaloutta ja tukee laitteiden korjattavuutta.
 
-Liitäntästandardin valinta on fundamentaalinen suunnittelupäätös, joka vaikuttaa tuotteen koko elinkaareen, ylläpidettävyyteen ja riippumattomuuteen. Avoimet standardit varmistavat, että laitteen toimintaa ohjaavat ohjelmistot ja ajurit voidaan pitää avoimina ja yhteisön ylläpitäminä vuosikymmeniä laitteen valmistuksen päättymisen jälkeen. Tämä pidentää laitteiston käyttöikää, edistää kiertotaloutta ja tukee laitteiden korjattavuutta.
-
-Suljetut standardit puolestaan altistavat laitteistoekosysteemin toimittajalukitukselle. Tällöin laitteen suorituskyky, ominaisuudet ja pitkäaikainen yhteensopivuus ovat riippuvaisia standardia hallinnoivan konsortion ja yksittäisten ajurivalmistajien liike-elämän intressistä. Avoimen laitteiston kehityksessä avointen liitäntästandardien suosiminen onkin välttämätön edellytys sille, että laite säilyy aidosti avoimena, muokattavana ja riippumattomana myös fyysisen valmistusvaiheen jälkeen.
+Suljetut standardit puolestaan altistavat laitteiston toimittajalukitukselle. Tällöin laitteen suorituskyky, ominaisuudet ja pitkäaikainen yhteensopivuus ovat riippuvaisia standardia hallinnoivan olion päätöksistä. Avoimen laitteiston kehityksessä avointen standardien suosiminen on välttämätön edellytys sille, että laite säilyy aidosti avoimena.
