@@ -15,15 +15,11 @@
 #import "@preview/scholarly-tauthesis:0.21.0" as tauthesis
 
 
-= Lisenssien yhteensovitettavuus
+= Standardien lisenssit
 
-Liitäntästandardit määrittelevät, kuinka eri laitteet kommunikoivat keskenään. Standardien avoimuus vaikuttaa siihen, kuinka helposti uusia laitteita voidaan kehittää ja ottaa käyttöön sekä millaisia oikeudellisia ja taloudellisia velvoitteita niiden hyödyntäminen aiheuttaa. Avoimet standardit pyrkivät edistämään järjestelmien yhteentoimivuutta ja kilpailua tarjoamalla tekniset spesifikaatiot laajasti saataville. Suljetut standardit taas voivat rajoittaa toteutuksia lisenssiehtojen, tiukkojen salassapitosopimusten ja laitekohtaisten rojaltimaksujen avulla.
+Avoimen laitteiston toimivuus ei riipu pelkästään laitteistosuunnitelmien tai ohjelmiston lisenssistä, vaan myös niiden käyttämien standardien lisensointimallista. Vaikka laitteisto ja sitä ohjaava ohjelmisto olisivat avoimesti lisensoituja, suljetut tiedonsiirtostandardit voivat estää kaikkien ominaisuuksien toteuttamisen avoimen lähdekoodin ohjelmistoissa. Tämän vuoksi lisenssien yhteensopivuus on keskeinen edellytys aidosti avoimelle ympäristölle.
 
-== Tiedonsiirtoprotokollat osana laitetta
-
-Tiedonsiirtoprotokolla muodostaa olennaisen osan laitteen toiminnallisuutta, sillä se määrittelee tiedon rakenteen, ajoituksen ja siirtomenetelmät laitteiden välillä. Vaikka fyysinen liitin olisi standardoitu ja sen kytkentäkaaviot avoimesti saatavilla, protokollan käyttöehdot voivat vaikuttaa merkittävästi siihen, kuinka avoimesti laitteisto voidaan käytännössä toteuttaa. Järjestelmätasolla avoimuus edellyttääkin läpinäkyvyyttä fyysisestä kerroksesta aina loogiseen protokollakerrokseen saakka.
-
-Erityisesti avoimen laitteiston näkökulmasta protokollan dokumentaation saatavuus, lisenssiehdot ja mahdollisuus kehittää yhteensopivia toteutuksia ovat keskeisiä tekijöitä. Jos laitteiston tiedonsiirtoprotokolla on suljettu tai edellyttää suljettuja ohjelmistokomponentteja, laitteen toiminnan riippumaton kehitys ja korjaaminen vaikeutuvat huomattavasti. Tällöin fyysisen laitteiston avoimuus menettää osan merkityksestään, koska laite on edelleen sidottu kolmannen osapuolen omistamaan tiedonsiirtoprotokollaan.
+Liitäntästandardit määrittelevät, kuinka eri laitteet kommunikoivat keskenään. Standardien lisenssiehdot vaikuttavat siihen, kuinka helposti yhteensopivia laitteita ja ohjelmistoja voidaan kehittää sekä millaisia oikeudellisia ja taloudellisia velvoitteita niiden toteuttamiseen liittyy. Avoimet standardit tukevat yhteentoimivuutta tarjoamalla tekniset määrittelyt laajasti saataville, kun taas suljetut standardit voivat rajoittaa toteutuksia lisenssiehtojen, salassapitosopimusten ja rojaltimaksujen avulla.
 
 == HDMI-standardi
 

@@ -152,6 +152,85 @@ Avoimen laitteiston lisenssit muistuttavat avoimen lähdekoodin lisenssejä, mut
 
 Avoimen laitteiston lisenssit muistuttavat hyvin paljon avoimen lähdekoodin lisenssejä. Sallivat lisenssit mahdollistavat suunnitelmien käytön myös suljetuissa tuotteissa ilman velvoitetta julkaista muutoksia. Velvoittavat lisenssit puolestaan edellyttävät, että muokatut versiot ja niihin perustuvat tuotteet jaetaan avoimesti samalla lisenssillä. Tämä varmistaa, että yhteisön kehittämä tieto ja parannukset säilyvät kaikkien saatavilla. @OpenSourceHardware
 
+#import table: cell, header, hline, vline
+
+#[
+  #show table.cell.where(y: 0): strong
+
+  #figure(
+    table(
+      columns: 3,
+      stroke: none,
+      align: (center, center, left),
+
+      table.hline(),
+
+      table.header(
+        table.vline(),
+        [Lisenssi],
+        table.vline(),
+        [Tyyppi],
+        table.vline(),
+        [Keskeiset ehdot],
+        table.vline(),
+      ),
+
+      table.hline(),
+
+      [Solderpad],
+      [Salliva],
+      [
+        Perustuu Apache 2.0 -lisenssiin \
+        Tekijänoikeusilmoitus säilytettävä \
+        Sallii suljetut johdannaisteokset
+      ],
+
+      table.hline(),
+
+      [CERN-OHL-P],
+      [Salliva],
+      [
+        Muokkaaminen ja kaupallinen käyttö sallittu \
+        Tekijänoikeusilmoitus säilytettävä \
+        Ei velvoitetta julkaista muutoksia
+      ],
+
+      table.hline(),
+
+      [CERN-OHL-W],
+      [Velvoittava],
+      [
+        Muutokset julkaistava \
+        Velvoitteet kohdistuvat muutoksiinn \
+        Mahdollistaa yhdistämisen suljettuihin kokonaisuuksiin
+      ],
+
+      table.hline(),
+
+      [CERN-OHL-S],
+      [Velvoittava],
+      [
+        Johdannaisteokset julkaistava samalla lisenssillä \
+        Suunnittelutiedostot toimitettava \
+        Copyleft koskee koko laitteistosuunnitelmaa
+      ],
+
+      table.hline(),
+
+      [TAPR],
+      [Velvoittava],
+      [
+        Muokatut suunnitelmat julkaistava \
+        Dokumentaatio säilytettävä \
+        Muutokset ilmoitettava käyttäjille
+      ],
+
+      table.hline(),
+    ),
+
+    caption: [Avoimen laitteiston lisenssien vertailu],
+  )
+]
 Avoimen laitteiston keskeisiä haasteita ovat fyysiseen tuotantoon liittyvät kustannukset, komponenttien saatavuus sekä patenttien ja standardien vaikutus. Laitteen tuottaminen vaatii aina fyysistä valmistusta, mikä rajoittaa avoimuuden määritelmällistä toteutumista. Tästä huolimatta avoin laitteisto on kasvattanut suosiotaan erityisesti koulutuksessa, tutkimuksessa ja prototyyppikehityksessä. @cresseyDIYElectronicsTransforming2017
 
 Avoin laitteisto tukee kestävää kehitystä mahdollistamalla laitteiden korjaamisen, muokkaamisen ja elinkaaren pidentämisen. Kun dokumentaatio on avoimesti saatavilla, käyttäjät eivät ole sidottuja tiettyjen valmistajien varaosiin tai huoltoon. Tämä vähentää elektroniikkajätettä ja edistää luonnonvarojen tehokkaampaa käyttöä. @rakitinOpenSourceHardware2022
