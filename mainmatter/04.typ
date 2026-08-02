@@ -15,7 +15,7 @@
 #import "@preview/scholarly-tauthesis:0.21.0" as tauthesis
 
 
-= Avoin ja suljettu liitäntästandardi
+= Lisenssien yhteensovitettavuus
 
 Liitäntästandardit määrittelevät, kuinka eri laitteet kommunikoivat keskenään. Standardien avoimuus vaikuttaa siihen, kuinka helposti uusia laitteita voidaan kehittää ja ottaa käyttöön sekä millaisia oikeudellisia ja taloudellisia velvoitteita niiden hyödyntäminen aiheuttaa. Avoimet standardit pyrkivät edistämään järjestelmien yhteentoimivuutta ja kilpailua tarjoamalla tekniset spesifikaatiot laajasti saataville. Suljetut standardit taas voivat rajoittaa toteutuksia lisenssiehtojen, tiukkojen salassapitosopimusten ja laitekohtaisten rojaltimaksujen avulla.
 
@@ -27,17 +27,17 @@ Erityisesti avoimen laitteiston näkökulmasta protokollan dokumentaation saatav
 
 == HDMI-standardi
 
-HDMI on yksi maailman yleisimmistä digitaalisen kuvan ja äänen siirtostandardeista, mutta sen hallinta perustuu täysin kaupalliseen ja suljettuun lisensointimalliin. Standardin kehityksestä vastaa HDMI Forum yhdessä HDMI Licensing Administrator -organisaation kanssa. Standardin hyödyntäminen kaupallisissa tuotteissa edellyttää virallisen lisenssisopimuksen hyväksymistä, vuotuisten jäsenmaksujen maksamista sekä laitekohtaisten rojaltimaksujen suorittamista. Tämä taloudellinen kynnys erottaa HDMI-standardin avoimista teollisuusstandardeista, joissa vastaavia maksurasitteita ei aseteta.
+HDMI on yksi maailman yleisimmistä digitaalisen kuvan ja äänen siirtostandardeista, mutta sen hallinta perustuu täysin kaupalliseen ja suljettuun lisensointimalliin. Standardin kehityksestä vastaa HDMI Forum yhdessä HDMI Licensing Administrator -organisaation kanssa. Standardin hyödyntäminen kaupallisissa tuotteissa edellyttää virallisen lisenssisopimuksen hyväksymistä, vuotuisten jäsenmaksujen maksamista sekä laitekohtaisten rojaltimaksujen suorittamista. @RegistrationReceiveHDMI Tämä taloudellinen kynnys erottaa HDMI-standardin avoimista teollisuusstandardeista, joissa vastaavia maksurasitteita ei aseteta.
 
-Suljettu hallintamalli vaikuttaa suoraan myös teknisen dokumentaation saatavuuteen. Uusimpien ominaisuuksien yksityiskohtaiset spesifikaatiot ovat saatavilla vain lisensoiduille valmistajille, jotka sitoutuvat tiukkoihin salassapitosopimuksiin. Nämä sopimukset kieltävät teknisten yksityiskohtien paljastamisen kolmansille osapuolille. Tämän seurauksena avoimen lähdekoodin kehittäjät ja yhteisövetoiset laitteistoprojektit eivät voi tutkia tai toteuttaa kaikkia standardin ominaisuuksia riippumattomasti, sillä toteutuksen julkaiseminen lähdekoodina rikkoisi salassapitosopimuksen ehtoja.
+Suljettu hallintamalli vaikuttaa suoraan myös teknisen dokumentaation saatavuuteen. Uusimpien ominaisuuksien yksityiskohtaiset spesifikaatiot ovat saatavilla vain lisensoiduille valmistajille, jotka sitoutuvat tiukkoihin salassapitosopimuksiin. Nämä sopimukset kieltävät teknisten yksityiskohtien paljastamisen kolmansille osapuolille. Tämän seurauksena avoimen lähdekoodin kehittäjät ja yhteisövetoiset laitteistoprojektit eivät voi tutkia tai toteuttaa kaikkia standardin ominaisuuksia riippumattomasti, sillä toteutuksen julkaiseminen lähdekoodina rikkoisi salassapitosopimuksen ehtoja. @HDMIForumRejects
 
 === Tapaus HDMI 2.1 ja avoin lähdekoodi
 
-HDMI 2.1 -standardin käyttöönotto havainnollistaa suljetun standardin konkreettisia vaikutuksia avoimen lähdekoodin kehitykseen. Uusi standardiversio toi mukanaan korkeampia kaistanleveyksiä ja uusia ominaisuuksia, kuten Fixed Rate Link -teknologian. Kun avoimen lähdekoodin yhteisö ja näytönohjainvalmistaja AMD, pyrkivät toteuttamaan HDMI 2.1 -tuen avoimiin GNU/Linux-käyttöjärjestelmän grafiikka-ajureihin, sai hanke kieltävän päätöksen standardiorganisaatiolta.
+HDMI 2.1 -standardin käyttöönotto havainnollistaa suljetun standardin konkreettisia vaikutuksia avoimen lähdekoodin kehitykseen. Uusi standardiversio toi mukanaan korkeampia kaistanleveyksiä ja uusia ominaisuuksia, kuten Fixed Rate Link -teknologian. Kun avoimen lähdekoodin yhteisö ja näytönohjainvalmistaja AMD pyrkivät toteuttamaan HDMI 2.1 -tuen avoimiin GNU/Linux-käyttöjärjestelmän grafiikka-ajureihin, sai hanke kieltävän päätöksen standardiorganisaatiolta. @HDMIForumRejects
 
-HDMI Forum ei sallinut FRL-teknologian toteuttamista avoimessa ajurikoodissa, koska ajurin lähdekoodin julkaiseminen olisi paljastanut salassapitosopimuksen alaisia teknisiä määritelmiä. Tämän seurauksena esimerkiksi AMD:n avoimet GNU/Linux-ajurit eivät voineet tarjota suoraa HDMI 2.1 -tukea. Tapaus johti tilanteeseen, jossa kuluttajat eivät voineet hyödyntää näytönohjaimensa ja näyttönsä kaikkia ominaisuuksia ilman suljettuja laiteohjelmistoja tai siirtymistä vaihtoehtoisiin liitäntöihin.
+HDMI Forum ei sallinut FRL-teknologian toteuttamista avoimessa ajurikoodissa, koska ajurin lähdekoodin julkaiseminen olisi paljastanut salassapitosopimuksen alaisia teknisiä määritelmiä. @HDMIForumRejects Tämän seurauksena esimerkiksi AMD:n avoimet GNU/Linux-ajurit eivät voineet tarjota suoraa HDMI 2.1 -tukea. Tapaus johti tilanteeseen, jossa kuluttajat eivät voineet hyödyntää näytönohjaimensa ja näyttönsä kaikkia ominaisuuksia ilman suljettuja laiteohjelmistoja tai siirtymistä vaihtoehtoisiin liitäntöihin.
 
-HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarkastelemalla avoimien käyttöjärjestelmien käyttäjäkuntaa ja niiden laitteistojakaumaa. Steam Hardware Survey on yksi laajimmin käytetyistä julkisista aineistoista, joka kuvaa pelaajien käyttöjärjestelmiä ja laitteistoja. Vaikka aineisto ei kata koko tietokonemarkkinaa, se tarjoaa hyvän yleiskuvan erityisesti nykyaikaisia grafiikkaominaisuuksia hyödyntävien käyttäjien laitekokoonpanoista. Tämän vuoksi sitä voidaan käyttää havainnollistamaan, kuinka laajasti HDMI 2.1:n kaltaisten suljettujen standardien rajoitukset voivat vaikuttaa avoimen lähdekoodin ohjelmistoihin.
+HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarkastelemalla avoimien käyttöjärjestelmien käyttäjäkuntaa ja niiden laitteistojakaumaa. Steam Hardware Survey @SteamHardwareSoftware on yksi laajimmin käytetyistä julkisista aineistoista, joka kuvaa pelaajien tietokoneita. Vaikka aineisto ei kata koko tietokonemarkkinaa, se tarjoaa hyvän yleiskuvan laitekokoonpanoista. Tämän vuoksi sitä voidaan käyttää havainnollistamaan, kuinka laajasti HDMI 2.1:n kaltaisten suljettujen standardien rajoitukset voivat vaikuttaa avoimen lähdekoodin ohjelmistoihin.
 
 #figure(
   grid(
@@ -168,18 +168,20 @@ Tilastot osoittavat, ettei kyse ole pelkästään yksittäisten kehittäjien koh
     caption: [HDMI 2.0- ja HDMI 2.1 -standardien vertailu],
   )
 ]
-Tapaus osoittaa selkeästi, kuinka suljettu standardi voi muodostua suoraksi esteeksi avoimelle ohjelmisto- ja laitteistokehitykselle. Kun tekniset tiedot salataan, avoimet järjestelmät pakotetaan joko tukeutumaan suljettuihin binäärimoduuleihin tai tyytymään vanhempien standardiversioiden tarjoamaan rajoitettuun suorituskykyyn.
+Tapaus osoittaa selkeästi, kuinka suljettu standardi voi muodostua suoraksi esteeksi avoimelle ohjelmisto- ja laitteistokehitykselle. Kun tekniset tiedot salataan, avoimet järjestelmät pakotetaan joko tukeutumaan suljettuihin binäärietiedostoihin tai tyytymään vanhempien standardiversioiden tarjoamaan rajoitettuun suorituskykyyn.
 
-== DisplayPort avoimena standardina
+== DisplayPort ja sen lisensointimalli
 
-DisplayPort on VESA-järjestön kehittämä digitaalinen näyttöliitäntästandardi, jonka tavoitteena on tarjota laitevalmistajille suorituskykyinen, avoin ja yhteentoimiva vaihtoehto kuvansiirtoon. Toisin kuin HDMI, DisplayPort on ei edellytä laitekohtaisia rojaltimaksuja. Tämä alentaa merkittävästi uuden laitteiston kehityskustannuksia ja mahdollistaa liitännän joustavan käytön myös pienille valmistajille, tutkimusprojekteille ja harrastajaprojekteille.
+DisplayPort on VESA-järjestön (Video Electronics Standards Association) kehittämä näyttöliitäntästandardi. DisplayPort ei ole avoin standardi ja vaatii käyttäjältänsä VESA:n jäsenmaksun, mutta DisplayPortin käyttö ei edelltyä rojaltimaksuja. @FAQ Tämä alentaa uuden laitteiston kehityskustannuksia ja mahdollistaa liitännän joustavamman käytön myös pienille valmistajille, tutkimusprojekteille ja harrastajahankkeille.
 
-=== DisplayPortin soveliaammat ominaisuudet
+=== DisplayPort avoimissa ohjelmistoissa ja ajureissa
 
-Toisin kuin HDMI 2.1:n tapauksessa, DisplayPortin ominaisuuksien toteuttaminen avoimen lähdekoodin ohjelmistoissa ei ole ollut riippuvainen suljetuista salassapitosopimuksista. Tämän seurauksena GNU/Linuxin avoimet grafiikka-ajurit ovat voineet tukea DisplayPortin uusia ominaisuuksiailman oikeudellisia rajoitteita. Tämä on mahdollistanut uusien näyttötekniikoiden nopeamman käyttöönoton avoimissa käyttöjärjestelmissä ja vähentänyt riippuvuutta valmistajakohtaisista suljetuista ohjelmistoista.
+Toisin kuin HDMI 2.1:n tapauksessa, DisplayPort-protokollan ja sen ominaisuuksien toteuttaminen avoimen lähdekoodin grafiikka-ajureissa ei ole kohdannut samanlaisia juridisia esteitä tai salassapitosopimuksia. Tämän ansiosta näytönohjainvalmistajat ja yhteisövetoiset kehittäjät ovat voineet toteuttaa DisplayPortin tiedonsiirtoprotokollat ja uusimmat ominaisuudet suoraan avoimiin GNU/Linux grafiikka-ajureihin.
+
+Tämä tekee DisplayPortista käytännössä huomattavasti yhteensopivamman ratkaisun avoimen lähdekoodin ympäristöissä, sillä se ei pakota ajureita tukeutumaan suljettuihin binäärietiedostoihin eikä estä uusimpien näyttötekniikoiden käyttöä avoimissa käyttöjärjestelmissä.
 
 == Standardien vaikutukset laitteistolle
 
-Liitäntästandardin valinta on perusteellinen päätös, joka vaikuttaa tuotteen koko elinkaareen, ylläpidettävyyteen ja riippumattomuuteen. Avoimet standardit varmistavat, että laitteen toimintaa ohjaavat ohjelmistot ja ajurit voidaan pitää avoimina ja ylläpidettyinä vuosikymmeniä laitteen valmistuksen päättymisen jälkeen. Tämä pidentää laitteiston käyttöikää, edistää kiertotaloutta ja tukee laitteiden korjattavuutta.
+Standardien valinta on perusteellinen päätös, joka vaikuttaa tuotteen koko elinkaareen, ylläpidettävyyteen ja riippumattomuuteen. Avoimet standardit varmistavat, että laitteen toimintaa ohjaavat ohjelmistot ja ajurit voidaan pitää avoimina ja ylläpidettyinä vuosikymmeniä laitteen valmistuksen päättymisen jälkeen. Tämä pidentää laitteiston käyttöikää, edistää kiertotaloutta ja tukee laitteiden korjattavuutta. @rakitinOpenSourceHardware2022
 
-Suljetut standardit puolestaan altistavat laitteiston toimittajalukitukselle. Tällöin laitteen suorituskyky, ominaisuudet ja pitkäaikainen yhteensopivuus ovat riippuvaisia standardia hallinnoivan olion päätöksistä. Avoimen laitteiston kehityksessä avointen standardien suosiminen on välttämätön edellytys sille, että laite säilyy aidosti avoimena.
+Suljetut ja rajoitetut standardit puolestaan altistavat laitteiston toimittajalukitukselle. Tällöin laitteen suorituskyky, ominaisuudet ja pitkäaikainen yhteensopivuus ovat riippuvaisia standardia hallinnoivan tahon lisensointipäätöksistä. Avoimen laitteiston kehityksessä avoimuutta tukevien standardien suosiminen on välttämätön edellytys sille, että laite säilyy aidosti avoimena koko teknologisen olemuksensa osalta.
