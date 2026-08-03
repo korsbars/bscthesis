@@ -33,7 +33,7 @@ HDMI 2.1 -standardin käyttöönotto havainnollistaa suljetun standardin konkree
 
 HDMI Forum ei sallinut FRL-teknologian toteuttamista avoimessa ajurikoodissa, koska ajurin lähdekoodin julkaiseminen olisi paljastanut salassapitosopimuksen alaisia teknisiä määritelmiä. @HDMIForumRejects Tämän seurauksena esimerkiksi AMD:n avoimet GNU/Linux-ajurit eivät voineet tarjota suoraa HDMI 2.1 -tukea. Tapaus johti tilanteeseen, jossa kuluttajat eivät voineet hyödyntää näytönohjaimensa ja näyttönsä kaikkia ominaisuuksia ilman suljettuja laiteohjelmistoja tai siirtymistä vaihtoehtoisiin liitäntöihin.
 
-HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarkastelemalla avoimien käyttöjärjestelmien käyttäjäkuntaa ja niiden laitteistojakaumaa. Steam Hardware Survey @SteamHardwareSoftware on yksi laajimmin käytetyistä julkisista aineistoista, joka kuvaa pelaajien tietokoneita. Vaikka aineisto ei kata koko tietokonemarkkinaa, se tarjoaa hyvän yleiskuvan laitekokoonpanoista. Tämän vuoksi sitä voidaan käyttää havainnollistamaan, kuinka laajasti HDMI 2.1:n kaltaisten suljettujen standardien rajoitukset voivat vaikuttaa avoimen lähdekoodin ohjelmistoihin.
+HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarkastelemalla avoimien käyttöjärjestelmien käyttäjäkuntaa ja niiden laitteistojakaumaa. Steam Hardware Survey @SteamHardwareSoftware on yksi laajimmin käytetyistä julkisista aineistoista, joka kuvaa pelaajien tietokoneita. Vaikka aineisto ei kata koko tietokonemarkkinaa, se tarjoaa hyvän yleiskuvan laitekokoonpanoista. Tämän vuoksi sitä voidaan käyttää havainnollistamaan, kuinka laajasti HDMI 2.1:n kaltaisten suljettujen standardien rajoitukset voivat vaikuttaa avoimen lähdekoodin ohjelmistoihin. Käyttöjärjestelmien sekä GNU/Linux-käyttäjien näytönohjainten osuuksia tarkastellaan yksityiskohtaisemmin @fig-steam-gpu-survey[kuvassa].
 
 #figure(
   grid(
@@ -118,10 +118,11 @@ HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarka
   ),
 ) <fig-steam-gpu-survey>
 
-Steam Hardware Survey -tilastojen perusteella Windows hallitsee 93,7% prosentin osuudella ja GNU/Linux muodostaa  neljän prosentin osuuden käyttäjäkunnasta. Vaikka osuus on suhteellisen pieni, se vastaa maailmanlaajuisesti miljoonia käyttäjiä. GNU/Linux-käyttäjien näytönohjainjakauma painottuu AMD:n laitteisiin, joiden osuus on noin 51 prosenttia, kun taas NVIDIAn osuus on 26,4 prosenttia ja Intelin noin 16,2 prosenttia. Koska AMD:n GNU/Linux-ajurit ovat pääosin avoimen lähdekoodin toteutuksia, HDMI Forumin asettamat rajoitukset kohdistuvat erityisesti merkittävään osaan GNU/Linux-käyttäjistä.
+Steam Hardware Survey -tilastojen perusteella Windows hallitsee 93,7 prosentin osuudella ja GNU/Linux muodostaa neljän prosentin osuuden käyttäjäkunnasta. Vaikka Valve ei julkaise kyselyyn osallistuneiden käyttäjien tarkkaa kokonaismäärää, Steamin satojen miljoonien aktiivisten käyttäjien @SteamworksDevelopmentSteam2022 ansiosta neljän prosentin osuuden voidaan arvioida vastaavan useita miljoonia käyttäjiä.
+
+GNU/Linux-käyttäjien näytönohjainjakauma painottuu AMD:n laitteisiin, joiden osuus on noin 51 prosenttia, kun taas NVIDIAn osuus on 26,4 prosenttia ja Intelin noin 16,2 prosenttia. Koska AMD:n GNU/Linux-ajurit ovat pääosin avoimen lähdekoodin toteutuksia, HDMI Forumin asettamat rajoitukset kohdistuvat erityisesti merkittävään osaan GNU/Linux-käyttäjistä.
 
 Tilastot osoittavat, ettei kyse ole pelkästään yksittäisten kehittäjien kohtaamasta teknisestä ongelmasta, vaan suljetun standardin vaikutukset ulottuvat laajaan käyttäjäjoukkoon. Kun HDMI 2.1:n ominaisuuksia ei voida toteuttaa avoimissa ajureissa, käyttäjät eivät voi hyödyntää laitteistonsa kaikkia ominaisuuksia ilman suljettuja ohjelmistokomponentteja tai vaihtoehtoisten liitäntästandardien käyttöä. Suljettu liitäntästandardi muodostuu siten käytännön esteeksi avoimelle ohjelmisto- ja laitteistokehitykselle.
-
 
 #import table: cell, header, hline, vline
 
@@ -165,17 +166,17 @@ Tilastot osoittavat, ettei kyse ole pelkästään yksittäisten kehittäjien koh
     alt: "Taulukko, jossa vertaillaan HDMI 2.0 ja HDMI 2.1 tietoja",
   )
 ]
-Tapaus osoittaa selkeästi, kuinka suljettu standardi voi muodostua suoraksi esteeksi avoimelle ohjelmisto- ja laitteistokehitykselle. Kun tekniset tiedot salataan, avoimet järjestelmät pakotetaan joko tukeutumaan suljettuihin binäärietiedostoihin tai tyytymään vanhempien standardiversioiden tarjoamaan rajoitettuun suorituskykyyn.
+Tapaus osoittaa selkeästi, kuinka suljettu standardi voi muodostua suoraksi esteeksi avoimelle ohjelmisto- ja laitteistokehitykselle. Kun tekniset tiedot salataan, avoimet järjestelmät pakotetaan joko tukeutumaan suljettuihin binääritiedostoihin tai tyytymään vanhempien standardiversioiden tarjoamaan rajoitettuun suorituskykyyn.
 
 == DisplayPort ja sen lisensointimalli
 
-DisplayPort on VESA-järjestön (Video Electronics Standards Association) kehittämä näyttöliitäntästandardi. DisplayPort ei ole avoin standardi ja vaatii käyttäjältänsä VESA:n jäsenmaksun, mutta DisplayPortin käyttö ei edelltyä lisenssimaksuja. @FAQ Tämä alentaa uuden laitteiston kehityskustannuksia ja mahdollistaa liitännän joustavamman käytön myös pienille valmistajille, tutkimusprojekteille ja harrastajahankkeille.
+DisplayPort on VESA-järjestön (Video Electronics Standards Association) kehittämä näyttöliitäntästandardi. DisplayPort ei ole avoin standardi ja vaatii käyttäjältänsä VESA:n jäsenmaksun, mutta DisplayPortin käyttö ei edellytä lisenssimaksuja. @FAQ Tämä alentaa uuden laitteiston kehityskustannuksia ja mahdollistaa liitännän joustavamman käytön myös pienille valmistajille, tutkimusprojekteille ja harrastajahankkeille.
 
 === DisplayPort avoimissa ohjelmistoissa ja ajureissa
 
 Toisin kuin HDMI 2.1:n tapauksessa, DisplayPort-protokollan ja sen ominaisuuksien toteuttaminen avoimen lähdekoodin grafiikka-ajureissa ei ole kohdannut samanlaisia juridisia esteitä tai salassapitosopimuksia. Tämän ansiosta näytönohjainvalmistajat ja yhteisövetoiset kehittäjät ovat voineet toteuttaa DisplayPortin tiedonsiirtoprotokollat ja uusimmat ominaisuudet suoraan avoimiin GNU/Linux grafiikka-ajureihin.
 
-Tämä tekee DisplayPortista käytännössä huomattavasti yhteensopivamman ratkaisun avoimen lähdekoodin ympäristöissä, sillä se ei pakota ajureita tukeutumaan suljettuihin binäärietiedostoihin eikä estä uusimpien näyttötekniikoiden käyttöä avoimissa käyttöjärjestelmissä.
+Tämä tekee DisplayPortista käytännössä huomattavasti yhteensopivamman ratkaisun avoimen lähdekoodin ympäristöissä, sillä se ei pakota ajureita tukeutumaan suljettuihin binääritiedostoihin eikä estä uusimpien näyttötekniikoiden käyttöä avoimissa käyttöjärjestelmissä.
 
 == Standardien vaikutukset laitteistolle
 

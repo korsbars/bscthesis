@@ -19,6 +19,15 @@ Teknologian kehitys on perinteisesti perustunut omistamiseen ja keksintöjen sul
 
 Fyysinen maailma aiheuttaa haasteita avoimuuden toteutumiselle. Vaikka laitteiston suunnittelupiirustukset ja tiedostot voidaan jakaa maksutta, itse laitteen valmistamiseen liittyy aina materiaalikuluja ja fyysisiä resursseja @OpenSourceHardware. Myös suljetut standardit ja niihin liittyvät salassapitosopimukset voivat estää laitteiston avoimuuden täyden hyödyntämisen, vaikka laitteen pohjasuunnittelu olisikin avointa. Esimerkiksi HDMI-standardin lisenssiehdot ovat vaikeuttaneet avoimen lähdekoodin grafiikka-ajureiden kehittämistä @HDMIForumRejects.
 
-Tämän työn tavoitteena on määritellä avoimen laitteiston käsite ja tutkia sen lisensointiin liittyviä jakamis- ja suojaamiskäytäntöjä. Lisäksi työssä tarkastellaan käytännön esimerkkien kautta, kuinka avoimen laitteiston projektit ovat johtaneet merkittävien ja vaikuttavien tuotteiden syntyyn.
+Tämän työn tavoitteena on määritellä avoimen laitteiston käsite ja tutkia sen lisensointiin liittyviä jakamis- ja suojaamiskäytäntöjä. Lisäksi työssä tarkastellaan käytännön esimerkkien kautta, kuinka avoimen laitteiston projektit ovat johtaneet merkittävien ja vaikuttavien tuotteiden syntyyn avoimuutensa ansiosta.
+
+Tämän työn tutkimuskysymykset ovat:
+
++ Mitä avoin laitteisto tarkoittaa ja millaiset periaatteet ohjaavat sen kehittämistä?
+
++ Miten avoimen laitteiston lisenssit mahdollistavat tai rajoittavat laitteistojen kehittämistä, käyttöä ja edelleenjakelua?
+
++ Miten suljetut standardit vaikuttavat avoimen laitteiston ja avoimen lähdekoodin ohjelmistojen yhteentoimivuuteen?
+
 
 Luvussa 2 käsitellään avoimuuden käsitettä ja esitellään keskeisimmät ohjelmisto- ja laitteistolisenssit. Luvussa 3 syvennytään avoimen laitteiston periaatteisiin, sen tarjoamiin hyötyihin ja fyysisen maailman tuomiin rajoituksiin. Luvussa 4 analysoidaan suljettujen ympärtisöjen liittämistä avoimiin, erityisesti avoimen GNU/Linux-ajurikehityksen näkökulmasta.
