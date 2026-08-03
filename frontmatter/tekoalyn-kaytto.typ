@@ -16,18 +16,14 @@ seuraavia tekoälysovelluksia:
 		[*Sovellus*],
 		[*Versio*]
 	),
-	[...],
-	[...],
-	[...],
-	[...],
+	[Google Gemini],
+	[3.6],
 )
 
 == Tekoälyn käyttötarkoitus
 
-Kuvaa tähän _yksityiskohtaisesti_, mihin tarkoitukseen ja miten tekoälyä
-on sovellettu opinnäytteeseen tutkielmaprosessin aikana.
+Tekoälyä hyödynnettiin tämän opinnäytetyön aikana tekstin tuottamisen ja muotoilun tukena. Tekoälyä on käytettyä graafien ja taulukoiden tuottamiseen ja teknisten ongelmien ratkaisemiseen.
 
 == Osiot, joissa tekoälyä on käytetty
 
-Luettele tähän _kaikki_ opinnäytteen vaiheet ja osiot, joissa tekoälyä on
-tutkielmaprosessin aikana käytetty niin tarkasti kuin mahdollista.
+Lukujen 2 ja 4 taulukot, sekä graafiit ovat tehty tekoälyllä.

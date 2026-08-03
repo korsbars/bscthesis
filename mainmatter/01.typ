@@ -15,9 +15,9 @@
 
 = Johdanto <Johdanto>
 
-Teknologian kehitys on perinteisesti perustunut omistamiseen ja keksintöjen sulkemiseen maksujen ja omistuksen taakse. Kuitenkin avoimen lähdekoodin ohjelmistokehitys on osoittanut, että vapaaseen jakamiseen ja yhteisölliseen kehitykseen perustuva malli voi tuottaa parempia teknologisia ratkaisuja. Tämä sama avoimuuden ideologia on laajentunut koodin ulkopuolelle fyysiseen maailmaan, avoimeksi laitteistoksi (_Open Source Hardware_). 
+Teknologian kehitys on perinteisesti perustunut omistamiseen ja keksintöjen sulkemiseen maksujen ja omistuksen taakse. Kuitenkin avoimen lähdekoodin ohjelmistokehitys on osoittanut, että vapaaseen jakamiseen ja yhteisölliseen kehitykseen perustuva malli voi tuottaa parempia teknologisia ratkaisuja @EUOpenSource2026. Tämä sama avoimuuden ideologia on laajentunut koodin ulkopuolelle fyysiseen maailmaan, avoimeksi laitteistoksi (_Open Source Hardware_) @OpenSourceHardware.
 
-Fyysinen maailma aiheuttaa haasteita avoimuuden toteutumiselle. Vaikka laitteiston suunnittelupiirustukset ja tiedostot voidaan jakaa maksutta, itse laitteen valmistamiseen liittyy aina materiaalikuluja ja fyysisiä resursseja. Tämän lisäksi teollisuuden suljetut standardit ja niihin liittyvät salassapitosopimukset voivat estää laitteiston avoimuuden täyden hyödyntämisen, vaikka laitteen pohjasuunnittelu olisikin avointa. Esimerkiksi näyttöliitännöissä käytettävät protokollat voivat sanella sen, voidaanko laitteelle edes kehittää laillisesti avoimen lähdekoodin ajureita.
+Fyysinen maailma aiheuttaa haasteita avoimuuden toteutumiselle. Vaikka laitteiston suunnittelupiirustukset ja tiedostot voidaan jakaa maksutta, itse laitteen valmistamiseen liittyy aina materiaalikuluja ja fyysisiä resursseja @OpenSourceHardware. Myös suljetut standardit ja niihin liittyvät salassapitosopimukset voivat estää laitteiston avoimuuden täyden hyödyntämisen, vaikka laitteen pohjasuunnittelu olisikin avointa. Esimerkiksi HDMI-standardin lisenssiehdot ovat vaikeuttaneet avoimen lähdekoodin grafiikka-ajureiden kehittämistä @HDMIForumRejects.
 
 Tämän työn tavoitteena on määritellä avoimen laitteiston käsite ja tutkia sen lisensointiin liittyviä jakamis- ja suojaamiskäytäntöjä. Lisäksi työssä tarkastellaan käytännön esimerkkien kautta, kuinka avoimen laitteiston projektit ovat johtaneet merkittävien ja vaikuttavien tuotteiden syntyyn.
 

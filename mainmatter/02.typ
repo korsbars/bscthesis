@@ -24,13 +24,16 @@ Avoimen lähdekoodin lisenssit voidaan karkeasti jakaa kahteen pääryhmään, s
 
 === Avoimen lähdekoodin sallivat lisenssit
 
-Sallivat lisenssit antavat käyttäjälle lähes rajattomat vapaudet hyödyntää, muokata ja jakaa koodia. Sallivat lisenssit mahdollistavat lähdekoodin käytön osana suljettua ja kaupallista tuotetta. Yleisenä vaatimuksena on alkuperäisen tekijän ja lisenssitekstin säilyttäminen osana teosta. Kuuluisampiin salliviin lisensseihin kuuluu Kalifornian yliopiston BSD-lisenssi, Massachusetts Institute of Technology eli MIT:n MIT-lisenssi ja Apache Software Foundationin Apache-lisenssi.
+Sallivat lisenssit antavat käyttäjälle lähes rajattomat vapaudet hyödyntää, muokata ja jakaa koodia. Sallivat lisenssit mahdollistavat lähdekoodin käytön osana suljettua ja kaupallista tuotetta. Yleisenä vaatimuksena on alkuperäisen tekijän ja lisenssitekstin säilyttäminen osana teosta. Kuuluisampiin salliviin lisensseihin kuuluu Kalifornian yliopiston BSD-lisenssi, Massachusetts Institute of Technology eli MIT:n MIT-lisenssi ja Apache Software Foundationin Apache-lisenssi@newsTopOpenSource2025.
 
 BSD-lisenssi on yksi vanhimmista avoimista lisensseistä. Lisenssiä on päivitetty ajan kuluessa ja nykyisin siitä on käytössä useita versioita. Suosituimpia näistä ovat kolmen ehdon @3ClauseBSDLicense2011 ja kahden ehdon @2ClauseBSDLicense2006 lisenssit.
 
-BSD:n kolmen ehdon lisenssin ehdot:
+BSD 3-Clause -lisenssin ehdot:
+
 + Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
 + Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
 + Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 Kolmiehtoinen BSD-lisenssi velvoittaa teoksen käyttäjää säilyttämään alkuperäisen tekijänoikeusilmoituksen ja vastuuvapauslausekkeen lähdekoodissa ja valmiissa sovellutuksessa. @3ClauseBSDLicense2011 Lisäksi lisenssi kieltää alkuperäisen kehittäjän tai organisaation nimen käyttämisen ohjelmistosta jatkettujen tuotteiden markkinoinnissa ilman erillistä lupaa. Keskeisenä on myös vastuuvapauslauseke, joka kertoo ohjelmiston toimittamisesta sellaisenaan ilman takuita toiminnasta.
@@ -51,7 +54,7 @@ LGPL-lisenssi on kevyempi versio GPL:stä. LGPL on suosittu ohjelmistokirjastoje
 
 MPL-lisenssi asettuu sallivien ja vahvasti velvoittavien lisenssien väliin. MPL-lisenssi sallii lähdekoodin lisäämisen osaksi kaupallista ja suljettua projektia, mutta edellyttää alkuperäisen koodin ja siihen tehtyjen muokkausten avointa julkaisemista. @MozillaPublicLicense Täten vain osa MPL-lisenssiä käyttävästä projektista on pidettävä avoimena.
 
-MPL-lisenssi vaatii lisäksi, että muutokset dokumentoidaan ja alkuperäiset tekijänoikeusilmoitukset säilytetään. Lisenssi sisältää myös vastuuvapauslausekkeen sekä patentteihin liittyviä ehtoja, jotka suojaavat sekä kehittäjiä että käyttäjiä.
+MPL-lisenssi vaatii lisäksi, että muutokset dokumentoidaan ja alkuperäiset tekijänoikeusilmoitukset säilytetään. Lisenssi sisältää myös vastuuvapauslausekkeen hsekä patentteihin liittyviä ehtoja, jotka suojaavat sekä kehittäjiä että käyttäjiä.
 
 Velvoittavien lisenssien keskeinen tavoite on varmistaa ohjelmistojen avoimuuden säilyminen ja estää koodin sulkeminen. Tämä tekee velvoittavista lisensseistä erityisen suosittuja avoimen lähdekoodin yhteisöissä, vaikka niiden tiukemmat ehdot rajoittavat kaupallista käyttöä.
 

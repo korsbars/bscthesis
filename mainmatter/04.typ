@@ -19,11 +19,11 @@
 
 Avoimen laitteiston toimivuus ei riipu pelkästään laitteistosuunnitelmien tai ohjelmiston lisenssistä, vaan myös niiden käyttämien standardien lisensointimallista. Vaikka laitteisto ja sitä ohjaava ohjelmisto olisivat avoimesti lisensoituja, suljetut tiedonsiirtostandardit voivat estää kaikkien ominaisuuksien toteuttamisen avoimen lähdekoodin ohjelmistoissa. Tämän vuoksi lisenssien yhteensopivuus on keskeinen edellytys aidosti avoimelle ympäristölle.
 
-Liitäntästandardit määrittelevät, kuinka eri laitteet kommunikoivat keskenään. Standardien lisenssiehdot vaikuttavat siihen, kuinka helposti yhteensopivia laitteita ja ohjelmistoja voidaan kehittää sekä millaisia oikeudellisia ja taloudellisia velvoitteita niiden toteuttamiseen liittyy. Avoimet standardit tukevat yhteentoimivuutta tarjoamalla tekniset määrittelyt laajasti saataville, kun taas suljetut standardit voivat rajoittaa toteutuksia lisenssiehtojen, salassapitosopimusten ja rojaltimaksujen avulla.
+Liitäntästandardit määrittelevät, kuinka eri laitteet kommunikoivat keskenään. Standardien lisenssiehdot vaikuttavat siihen, kuinka helposti yhteensopivia laitteita ja ohjelmistoja voidaan kehittää sekä millaisia oikeudellisia ja taloudellisia velvoitteita niiden toteuttamiseen liittyy. Avoimet standardit tukevat yhteentoimivuutta tarjoamalla tekniset määrittelyt laajasti saataville, kun taas suljetut standardit voivat rajoittaa toteutuksia lisenssiehtojen, salassapitosopimusten ja lisenssimaksujen avulla.
 
 == HDMI-standardi
 
-HDMI on yksi maailman yleisimmistä digitaalisen kuvan ja äänen siirtostandardeista, mutta sen hallinta perustuu täysin kaupalliseen ja suljettuun lisensointimalliin. Standardin kehityksestä vastaa HDMI Forum yhdessä HDMI Licensing Administrator -organisaation kanssa. Standardin hyödyntäminen kaupallisissa tuotteissa edellyttää virallisen lisenssisopimuksen hyväksymistä, vuotuisten jäsenmaksujen maksamista sekä laitekohtaisten rojaltimaksujen suorittamista. @RegistrationReceiveHDMI Tämä taloudellinen kynnys erottaa HDMI-standardin avoimista teollisuusstandardeista, joissa vastaavia maksurasitteita ei aseteta.
+HDMI on yksi maailman yleisimmistä digitaalisen kuvan ja äänen siirtostandardeista, mutta sen hallinta perustuu täysin kaupalliseen ja suljettuun lisensointimalliin. Standardin kehityksestä vastaa HDMI Forum yhdessä HDMI Licensing Administrator -organisaation kanssa. Standardin hyödyntäminen kaupallisissa tuotteissa edellyttää virallisen lisenssisopimuksen hyväksymistä, vuotuisten jäsenmaksujen maksamista sekä laitekohtaisten lisenssimaksujen suorittamista. @RegistrationReceiveHDMI Tämä taloudellinen kynnys erottaa HDMI-standardin avoimista teollisuusstandardeista, joissa vastaavia maksurasitteita ei aseteta.
 
 Suljettu hallintamalli vaikuttaa suoraan myös teknisen dokumentaation saatavuuteen. Uusimpien ominaisuuksien yksityiskohtaiset spesifikaatiot ovat saatavilla vain lisensoiduille valmistajille, jotka sitoutuvat tiukkoihin salassapitosopimuksiin. Nämä sopimukset kieltävät teknisten yksityiskohtien paljastamisen kolmansille osapuolille. Tämän seurauksena avoimen lähdekoodin kehittäjät ja yhteisövetoiset laitteistoprojektit eivät voi tutkia tai toteuttaa kaikkia standardin ominaisuuksia riippumattomasti, sillä toteutuksen julkaiseminen lähdekoodina rikkoisi salassapitosopimuksen ehtoja. @HDMIForumRejects
 
@@ -169,7 +169,7 @@ Tapaus osoittaa selkeästi, kuinka suljettu standardi voi muodostua suoraksi est
 
 == DisplayPort ja sen lisensointimalli
 
-DisplayPort on VESA-järjestön (Video Electronics Standards Association) kehittämä näyttöliitäntästandardi. DisplayPort ei ole avoin standardi ja vaatii käyttäjältänsä VESA:n jäsenmaksun, mutta DisplayPortin käyttö ei edelltyä rojaltimaksuja. @FAQ Tämä alentaa uuden laitteiston kehityskustannuksia ja mahdollistaa liitännän joustavamman käytön myös pienille valmistajille, tutkimusprojekteille ja harrastajahankkeille.
+DisplayPort on VESA-järjestön (Video Electronics Standards Association) kehittämä näyttöliitäntästandardi. DisplayPort ei ole avoin standardi ja vaatii käyttäjältänsä VESA:n jäsenmaksun, mutta DisplayPortin käyttö ei edelltyä lisenssimaksuja. @FAQ Tämä alentaa uuden laitteiston kehityskustannuksia ja mahdollistaa liitännän joustavamman käytön myös pienille valmistajille, tutkimusprojekteille ja harrastajahankkeille.
 
 === DisplayPort avoimissa ohjelmistoissa ja ajureissa
 
