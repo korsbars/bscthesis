@@ -141,6 +141,7 @@ Lisenssit ohjaavat myös niiden alaisten teoksien käyttämistä osana niitä si
     ),
 
     caption: [Avoimen lähdekoodin lisenssien vertailu],
+    alt: "Taulukko, jossa vertaillaan avoimen lähdekoodin lisenssejä.",
   )
 ]
 
@@ -229,6 +230,7 @@ Avoimen laitteiston lisenssit muistuttavat hyvin paljon avoimen lähdekoodin lis
     ),
 
     caption: [Avoimen laitteiston lisenssien vertailu],
+    alt: "Taulukko, jossa vertaillaan avoimen laitteiston lisenssejä.",
   )
 ]
 Avoimen laitteiston keskeisiä haasteita ovat fyysiseen tuotantoon liittyvät kustannukset, komponenttien saatavuus sekä patenttien ja standardien vaikutus. Laitteen tuottaminen vaatii aina fyysistä valmistusta, mikä rajoittaa avoimuuden määritelmällistä toteutumista. Tästä huolimatta avoin laitteisto on kasvattanut suosiotaan erityisesti koulutuksessa, tutkimuksessa ja prototyyppikehityksessä. @cresseyDIYElectronicsTransforming2017

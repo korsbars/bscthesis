@@ -12,7 +12,7 @@
 
 //// Import the tauthesis module and document metadata.
 
-#import "@preview/scholarly-tauthesis:0.21.0" as tauthesis
+#import "@preview/scholarly-tauthesis:0.22.0" as tauthesis
 
 #import "metadata.typ"
 
@@ -27,8 +27,6 @@
 #let aiDisclaimerContents = include "frontmatter/use-of-ai.typ"
 
 #let tekoälynKäyttöTeksti = include "frontmatter/tekoalyn-kaytto.typ"
-
-#let publicationDict = yaml("bibliography.yaml")
 
 // Actually apply all settings related to the template.
 
@@ -60,7 +58,6 @@
 	physicallyPrinted: metadata.physicallyPrinted,
 	prefaceContents: prefaceContents,
 	printTwoSided: metadata.printTwoSided,
-	publicationDict: publicationDict,
 	region: metadata.region,
 	showParagraphLineNumbers: metadata.showParagraphLineNumbers,
 	sijainti: metadata.sijainti,
@@ -88,8 +85,10 @@
 
 #bibliography(
 	style: metadata.citationStyle,
+	target: selector(cite).before(<publicationMatter>),
 	"bibliography." + metadata.bibFileSuffix
 )
+
 
 // Place appendix-related chapters into the appendix index file.
 

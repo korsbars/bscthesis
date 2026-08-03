@@ -2,7 +2,7 @@
  *
  * This is an example chapter in a multi-file typst project.
  *
-***/
+ ***/
 
 #pdf.attach(
   "04.typ",
@@ -55,7 +55,7 @@ HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarka
           [
             #place(top + left, rect(width: 93.7%, height: 100%, fill: rgb("#0078d4"), radius: (left: 4pt)))
             #place(top + left, dx: 93.7%, rect(width: 4.0%, height: 100%, fill: rgb("#f39c12")))
-          ]
+          ],
         )
         #v(8pt)
         // Selite
@@ -88,7 +88,7 @@ HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarka
             #place(top + left, rect(width: 50.7%, height: 100%, fill: rgb("#ed1c24"), radius: (left: 4pt)))
             #place(top + left, dx: 50.7%, rect(width: 26.4%, height: 100%, fill: rgb("#76b900")))
             #place(top + left, dx: 77.1%, rect(width: 16.2%, height: 100%, fill: rgb("#0071c5")))
-          ]
+          ],
         )
         #v(8pt)
         // Selite
@@ -107,6 +107,7 @@ HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarka
     <fig-gpu-linux-share>
   ],
   kind: image,
+  alt: "Kokonaiskuva, joka sisältää kaksi alikuvaa: käyttöjärjestelmien jakauman Steamissa sekä GNU/Linux-käyttäjien näytönohjainvalmistajien jakauman.",
   caption: tauthesis.figureCaption(
     short: [
       Steam Hardware Survey: Käyttöjärjestelmä- ja näytönohjainjakaumat.
@@ -157,11 +158,11 @@ Tilastot osoittavat, ettei kyse ole pelkästään yksittäisten kehittäjien koh
       [4K @ 60 Hz],
       [4K @ 120 Hz / 8K @ 60 Hz],
 
-
       table.hline(),
     ),
 
     caption: [HDMI 2.0- ja HDMI 2.1 -standardien vertailu],
+    alt: "Taulukko, jossa vertaillaan HDMI 2.0 ja HDMI 2.1 tietoja",
   )
 ]
 Tapaus osoittaa selkeästi, kuinka suljettu standardi voi muodostua suoraksi esteeksi avoimelle ohjelmisto- ja laitteistokehitykselle. Kun tekniset tiedot salataan, avoimet järjestelmät pakotetaan joko tukeutumaan suljettuihin binäärietiedostoihin tai tyytymään vanhempien standardiversioiden tarjoamaan rajoitettuun suorituskykyyn.
