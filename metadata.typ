@@ -135,7 +135,7 @@
 #let alaotsikko = "" // or none without the ""
 #let avainsanat = ("avainsana1", "avainsana2", "...")
 #let koulu  = "Tampereen Yliopisto"
-#let otsikko = "Avcoin laitteisto ja "
+#let otsikko = "Avoin laitteisto ja lisenssit"
 #let sijainti = "Tampereella"
 #let tiedekunta = "ITC"
 #let tutkintoOhjelma = "Kandidaatin"
@@ -168,11 +168,11 @@
 // make it easier for reviewers to give comments related to
 // specific content lines.
 
-#let showParagraphLineNumbers = false
+#let showParagraphLineNumbers = true
 
 // Choose whether to include certain frontmatter sections.
 
-#let includeGlossary = false
+#let includeGlossary = true
 
 #let includeListOfFigures = false
 

@@ -12,7 +12,7 @@
 )
 
 #import "../preamble.typ": *
-#import "@preview/scholarly-tauthesis:0.21.0" as tauthesis
+#import "@preview/scholarly-tauthesis:0.22.0" as tauthesis
 
 
 = Standardien lisenssit
@@ -74,7 +74,7 @@ HDMI 2.1 -standardin rajoitusten käytännön merkitystä voidaan arvioida tarka
           gutter: 2.0em,
           align: center,
           [#box(square(size: 8pt, fill: rgb("#0078d4"), radius: 1pt)) *Windows* 93,7%],
-          [#box(square(size: 8pt, fill: rgb("#f39c12"), radius: 1pt)) *Linux* 4,0%],
+          [#box(square(size: 8pt, fill: rgb("#f39c12"), radius: 1pt)) *GNU/Linux* 4,0%],
           [#box(square(size: 8pt, fill: rgb("#888888"), radius: 1pt)) *macOS* 2,3%],
         )
       ],
@@ -182,7 +182,7 @@ HDMI 2.1 -standardin rajoitusten vastapainoksi avoimen lähdekoodin ekosysteemis
 
       table.hline(),
 
-      [Avoin Linux-ajurituki],
+      [Avoin GNU/Linux -ajurituki],
       [Kyllä],
       [Ei (HDMI Forum rajoittaa)],
       [Kyllä],
