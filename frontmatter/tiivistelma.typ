@@ -14,3 +14,5 @@
 )
 
 #import "../preamble.typ": *
+
+Tässä kirjallisuuskatsauksessa tarkastellaan avoimen laitteiston (Open Source Hardware) käsitettä, sen lisensointiperiaatteita sekä suljettujen standardien vaikutusta laitteiston ja ohjelmistojen yhteentoimivuuteen. Työssä käydään läpi teknologian avoimuuden ideologinen tausta ja sen laajeneminen ohjelmistoista fyysiseen maailmaan, vertaillaan keskeisimpiä avoimen koodin ja avoimen laitteiston lisenssejä sekä analysoidaan avoimuuden toteutumista käytännön esimerkkien kautta.  

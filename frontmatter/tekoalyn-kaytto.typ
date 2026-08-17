@@ -22,8 +22,10 @@ seuraavia tekoälysovelluksia:
 
 == Tekoälyn käyttötarkoitus
 
-Tekoälyä hyödynnettiin tämän opinnäytetyön aikana tekstin tuottamisen ja muotoilun tukena. Tekoälyä on käytettyä graafien ja taulukoiden tuottamiseen ja teknisten ongelmien ratkaisemiseen.
+Tekoälyä hyödynnettiin tämän opinnäytetyön aikana tekstin tuottamisen ja muotoilun tukena. Tekoälyä on käytettyä graafien ja taulukoiden tuottamiseen ja teknisten ongelmien ratkaisemiseen. Tekoälyä on hyödynnetty rönsyilevän tekstin tiivistämisessä. 
 
 == Osiot, joissa tekoälyä on käytetty
 
+Tiivistelmä, tiivistelmän pohjan luonti tekstikappaleista.
+Kappaleiden uudelleenjäsetäminen.
 Lukujen 2 ja 4 taulukot, sekä graafiit ovat tehty tekoälyllä.

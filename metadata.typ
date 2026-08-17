@@ -6,24 +6,20 @@
 // file is automatically loaded by the main file.
 //
 
-#import "@preview/scholarly-tauthesis:0.19.1" as tauthesis
+#import "@preview/scholarly-tauthesis:0.22.0" as tauthesis
 
 // Common metadata.
 
 #let author = "Jose Aronen"
 
 #let examiners = (
-	(
-		title : "Professor",
-		firstname : "Firstname",
-		lastname : "Lastname",
-	),
-	(
-		title : "University lecturer",
-		firstname : "Firstname",
-		lastname : "Lastname",
+  tauthesis.examiner(
+		title : "Tarkastaja",
+		firstname : "Matti",
+		lastname : "Haavisto",
 	),
 )
+
 
 /**
  * One of "fi" or "en".
@@ -58,6 +54,13 @@
 ***/
 
 #let includeFinnishAbstract = true
+
+/**
+ * Set this to false if you are an international student and do
+ * not need a Finnish abstract.
+***/
+
+#let includeEnglishAbstract = false
 
 /**
  * Set this to true before compiling your document, if you intend
@@ -113,7 +116,7 @@
 
 // A description that ends up in document metadata.
 
-#let description = "Erittäin kova kandidaatintyö"
+#let description = "Kandidaatintyö avoimesta laitteistosta ja niiden lisensseistä"
 
 // Choose your thesis type. The Finnish and English thesis
 // types työnTyyppi and thesisType need to match. The
@@ -132,12 +135,12 @@
 
 //// Finnish metadata.
 
-#let alaotsikko = "" // or none without the ""
-#let avainsanat = ("avainsana1", "avainsana2", "...")
+#let alaotsikko = "Lisenssien vaikutus yksilöön ja yhteiskuntaan" // or none without the ""
+#let avainsanat = ("avoin laitteisto", "avoimen lähdekoodin lisenssit", "copyleft", "sallivat lisenssit", "CERN-OHL", "HDMI", "DisplayPort", "avoimet standardit", "näytönohjainajurit", "GNU/Linux", "RISC-V", "Arduino", "Prusa Research", "yhteentoimivuus")
 #let koulu  = "Tampereen Yliopisto"
 #let otsikko = "Avoin laitteisto ja lisenssit"
 #let sijainti = "Tampereella"
-#let tiedekunta = "ITC"
+#let tiedekunta = "Informaatioteknologian ja viestinnän tiedekunta"
 #let tutkintoOhjelma = "Kandidaatin"
 
 //// English metadata.

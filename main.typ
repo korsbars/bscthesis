@@ -12,7 +12,7 @@
 
 //// Import the tauthesis module and document metadata.
 
-#import "@preview/scholarly-tauthesis:0.22.0" as tauthesis
+#import "patched.typ" as tauthesis
 
 #import "metadata.typ"
 
@@ -21,6 +21,8 @@
 #let glossaryModule = import "frontmatter/glossary.typ": glossary_words as glossaryDict
 
 #let tiivistelmänSisältö = include "frontmatter/tiivistelma.typ"
+
+#let abstractContents = include "frontmatter/abstract.typ"
 
 #let prefaceContents = include "frontmatter/preface.typ"
 
@@ -31,26 +33,27 @@
 // Actually apply all settings related to the template.
 
 #show: tauthesis.template.with(
-	aiDisclaimerContents: aiDisclaimerContents,
-	alaotsikko: metadata.alaotsikko,
-	attachPublications: metadata.attachPublications,
-	author: metadata.author,
-	avainsanat: metadata.avainsanat,
-	citationStyle: metadata.citationStyle,
-	compilationThesis: metadata.compilationThesis,
-	description: metadata.description,
-	displayLinkToToC: metadata.displayLinkToToC,
-	eqNumberWithinLevel : metadata.eqNumberWithinLevel,
-	examiners: metadata.examiners,
-	faculty: metadata.faculty,
-	figNumberWithinLevel : metadata.figNumberWithinLevel,
-	glossaryDict: glossaryDict,
-	includeFinnishAbstract: metadata.includeFinnishAbstract,
-	includeGlossary: metadata.includeGlossary,
-	includeListOfFigures: metadata.includeListOfFigures,
-	includeListOfTables: metadata.includeListOfTables,
-	includeListOfListings: metadata.includeListOfListings,
-	keywords: metadata.keywords,
+  aiDisclaimerContents: aiDisclaimerContents,
+  alaotsikko: metadata.alaotsikko,
+  attachPublications: metadata.attachPublications,
+  author: metadata.author,
+  avainsanat: metadata.avainsanat,
+  citationStyle: metadata.citationStyle,
+  compilationThesis: metadata.compilationThesis,
+  description: metadata.description,
+  displayLinkToToC: metadata.displayLinkToToC,
+  eqNumberWithinLevel : metadata.eqNumberWithinLevel,
+  examiners: metadata.examiners,
+  faculty: metadata.faculty,
+  figNumberWithinLevel : metadata.figNumberWithinLevel,
+  glossaryDict: glossaryDict,
+  includeEnglishAbstract: metadata.includeEnglishAbstract,
+  includeFinnishAbstract: metadata.includeFinnishAbstract,
+  includeGlossary: metadata.includeGlossary,
+  includeListOfFigures: metadata.includeListOfFigures,
+  includeListOfTables: metadata.includeListOfTables,
+  includeListOfListings: metadata.includeListOfListings,
+  keywords: metadata.keywords,
 	koulu: metadata.koulu,
 	language: metadata.language,
 	location: metadata.location,
