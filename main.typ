@@ -59,7 +59,7 @@
 	location: metadata.location,
 	otsikko: metadata.otsikko,
 	physicallyPrinted: metadata.physicallyPrinted,
-	prefaceContents: prefaceContents,
+	prefaceContents: none,
 	printTwoSided: metadata.printTwoSided,
 	region: metadata.region,
 	showParagraphLineNumbers: metadata.showParagraphLineNumbers,

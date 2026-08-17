@@ -1513,29 +1513,32 @@
 
 #let preface(author, language, prefaceContents, sijainti, location) = {
 
-	let date = datetime.today()
+  if prefaceContents != none and prefaceContents != [] {
 
-	if language == finnish [
+    let date = datetime.today()
 
-		= Alkusanat
+    if language == finnish [
 
-		#prefaceContents
+      = Alkusanat
 
-		#sijainti #date.day().
-		#localizeMonthFiPartitive(date.month())
-		#date.year(),\
-		#author
+      #prefaceContents
 
-	] else [
+      #sijainti #date.day().
+      #localizeMonthFiPartitive(date.month())
+      #date.year(),\
+      #author
 
-		= Preface
+    ] else [
 
-		#prefaceContents
+      = Preface
 
-		In #location on #date.day(). #date.display("[month repr:long] [year]"),\
-		#author
+      #prefaceContents
 
-	]
+      In #location on #date.day(). #date.display("[month repr:long] [year]"),\
+      #author
+
+    ]
+  }
 }
 
 /**
