@@ -1,58 +1,68 @@
 /** glossary.typ
  *
- * Write the glossary (sanasto) of your work here, into the typst
- * [dictionary] glossary_words. Each entry in the dictionary
- * needs to contain the keys name and description. The glossary
- * will be sorted according to the entry keys.
- *
- * [dictionary]: https://typst.app/docs/reference/foundations/dictionary/
+ * Työssä esiintyvät käsitteet, lyhenteet ja merkinnöt.
+ * Jokainen merkintä sisältää avaimet 'name' ja 'description'.
  *
 ***/
 
 #import "../preamble.typ": *
 
 #let glossary_words = (
-	scalar: (
-		name: math.equation(
-			alt: "s",
-			$s$
-		),
-		description: [
-			Lower-case italic letters denote scalars.
-		]
-	),
-	vector: (
-		name: math.equation(
-			alt: "vector(v)",
-			$vector(v)$
-		),
-		description: [
-			Bold upright lower-case letters denote vectors.
-		]
-	),
-	matrix: (
-		name: math.equation(
-			alt: "matrix(M)",
-			$matrix(M)$
-		),
-		description: [
-			Upright bold capital letters denote matrices.
-		]
-	),
-	tut: (
-		name: "TUT",
-		description: "Tampere University of Technology"
-	),
-	tuni: (
-		name: "TUNI",
-		description: "Tampere University"
-	),
-	julia: (
-		name: "Julia",
-		description: [
-			A high-level, dynamically typed general-purpose
-			programming language. Julia is compiled via LLVM into
-			native code which makes it fast.
-		]
-	),
+  // --- Standardit, organisaatiot ja yritykset ---
+  ansi: (
+    name: "ANSI",
+    description: [American National Standards Institute, Yhdysvaltain kansallinen standardointi-instituutti.]
+  ),
+  bsd: (
+    name: "BSD",
+    description: [Berkeley Software Distribution, avoimen lähdekoodin salliva lisenssiperhe.]
+  ),
+  cad: (
+    name: "CAD",
+    description: [Computer-Aided Design, tietokoneavusteinen suunnittelu ja sen tiedostomuodot.]
+  ),
+  cern_ohl: (
+    name: "CERN-OHL",
+    description: [CERN Open Hardware Licence, hiukkasfysiikan tutkimuskeskus CERNin kehittämä avoimen laitteiston lisenssi (versiot P, W ja S).]
+  ),
+  displayport: (
+    name: "DisplayPort",
+    description: [VESA-järjestön kehittämä digitaalinen näyttöliitäntästandardi.]
+  ),
+  frl: (
+    name: "FRL",
+    description: [Fixed Rate Link, HDMI 2.1 -standardin mukainen korkean kaistanleveyden signaalinsiirtoteknologia.]
+  ),
+  gnu: (
+    name: "GNU",
+    description: [Avoimen lähdekoodin käyttöjärjestelmäprojekti; käytetään usein yhdessä Linux-ytimen kanssa (GNU/Linux).]
+  ),
+  gpl: (
+    name: "GPL",
+    description: [GNU General Public License, vahvasti velvoittava (copyleft) avoimen lähdekoodin lisenssi.]
+  ),
+  hdmi: (
+    name: "HDMI",
+    description: [High-Definition Multimedia Interface, suljettu ja kaupallisesti lisensoitu kuvan- ja äänensiirtostandardi.]
+  ),
+  lgpl: (
+    name: "LGPL",
+    description: [GNU Lesser General Public License, kevyemmin velvoittava avoimen lähdekoodin lisenssi erityisesti ohjelmistokirjastoille.]
+  ),
+  mit: (
+    name: "MIT",
+    description: [Massachusetts Institute of Technology; viittaa myös suosittuun sallivaan MIT-ohjelmistolisenssiin.]
+  ),
+  mpl: (
+    name: "MPL",
+    description: [Mozilla Public License, heikosti velvoittava avoimen lähdekoodin lisenssi.]
+  ),
+  nvidia: (
+    name: "NVIDIA",
+    description: [Yhdysvaltalainen näytönohjainten ja tekoälysirujen valmistaja.]
+  ),
+  riscv: (
+    name: "RISC-V",
+    description: [Avoin ja lisenssimaksuton käskykanta-arkkitehtuuri (ISA) mikroprosessoreille.]
+  ),
 )

@@ -28,4 +28,5 @@ Tekoälyä hyödynnettiin tämän opinnäytetyön aikana tekstin tuottamisen ja 
 
 Tiivistelmä, tiivistelmän pohjan luonti tekstikappaleista.
 Kappaleiden uudelleenjäsetäminen.
+Lyhenteet ja merkinnät osio on tuotettu täysin tekoälyllä
 Lukujen 2 ja 4 taulukot, sekä graafiit ovat tehty tekoälyllä.
