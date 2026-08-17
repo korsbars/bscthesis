@@ -65,4 +65,16 @@
     name: "RISC-V",
     description: [Avoin ja lisenssimaksuton käskykanta-arkkitehtuuri (ISA) mikroprosessoreille.]
   ),
+	tmds: (
+    name: "TMDS",
+    description: [Transition Minimized Differential Signaling, vanhempi differentiaalinen signaalinsiirtomenetelmä (mm. HDMI 2.0 ja DVI).]
+  ),
+  uhbr: (
+    name: "UHBR",
+    description: [Ultra-High Bit Rate, DisplayPort 2.0/2.1 -standardien korkean kaistanleveyden siirtotila.]
+  ),
+  vesa: (
+    name: "VESA",
+    description: [Video Electronics Standards Association, kansainvälinen elektroniikkastandardeja kehittävä järjestö.]
+  ),
 )
